@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Merge All Events in Loop" group="Edit" description="">
+	<CommandElement category="Edit" name="Select All"/>
+	<CommandElement category="Edit" name="Split Loop"/>
+	<CommandElement category="Event" name="Merge Events"/>
+</Macro>

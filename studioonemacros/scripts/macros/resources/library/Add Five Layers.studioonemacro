@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Add 5 Layers to Selected Tracks" group="Comping" description="">
+	<CommandElement category="Track" name="Add Layer"/>
+	<CommandElement category="Track" name="Add Layer"/>
+	<CommandElement category="Track" name="Add Layer"/>
+	<CommandElement category="Track" name="Add Layer"/>
+	<CommandElement category="Track" name="Add Layer"/>
+	<CommandElement category="Track" name="Expand Layers">
+		<CommandArgument name="Expand" value="1"/>
+	</CommandElement>
+</Macro>

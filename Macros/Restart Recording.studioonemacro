@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Restart Recording" group="Audio" description="">
+	<CommandElement category="Transport" name="Stop"/>
+	<CommandElement category="Edit" name="Undo"/>
+	<CommandElement category="Transport" name="Record"/>
+</Macro>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Apply Reverse Reverb" group="Audio" description="">
+	<CommandElement category="Edit" name="Split Range"/>
+	<CommandElement category="Audio" name="Reverse Audio"/>
+	<CommandElement category="Audio" name="Insert Event FX">
+		<CommandArgument name="mode" value="1"/>
+		<CommandArgument name="cid" value="{29C71194-B29A-40C0-9A35-9053DB6F596C}"/>
+		<CommandArgument name="preset" value="Send FX/Catacombs"/>
+		<CommandArgument name="tail" value="2"/>
+	</CommandElement>
+	<CommandElement category="Audio" name="Render Event FX"/>
+	<CommandElement category="Audio" name="Reverse Audio"/>
+</Macro>

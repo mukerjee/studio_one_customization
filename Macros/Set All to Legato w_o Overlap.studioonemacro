@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Set All to Legato w/o Overlap" group="Musical" description="">
+	<CommandElement category="Musical Functions" name="Length">
+		<CommandArgument name="Mode" value="6"/>
+		<CommandArgument name="Value" value="0.5"/>
+		<CommandArgument name="FactorValue" value="0.20000000298023223876953125"/>
+		<CommandArgument name="LegatoOverlap" value="0"/>
+	</CommandElement>
+</Macro>

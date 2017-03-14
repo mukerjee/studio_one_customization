@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Setup Step Record" group="Edit" description="">
+	<CommandElement category="Note Length" name="1/64"/>
+	<CommandElement category="Quantize" name="1/64"/>
+	<CommandElement category="Step Record" name="Enable"/>
+</Macro>

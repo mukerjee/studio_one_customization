@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Phrases - FX 4" group="Articulations" description="">
+	<CommandElement category="Musical Functions" name="Velocity">
+		<CommandArgument name="Mode" value="2"/>
+		<CommandArgument name="AddValue" value="0"/>
+		<CommandArgument name="SetValue" value="93"/>
+		<CommandArgument name="ScaleValue" value="1"/>
+	</CommandElement>
+</Macro>

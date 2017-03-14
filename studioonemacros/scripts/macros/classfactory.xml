@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassFactory>
+	<!-- Shared Macro Manager Singleton (hidden) -->
+	<ScriptClass
+		classID="{F556BEC2-8B97-4387-9DE5-87C74670A1B5}"
+		category="FrameworkService"
+		name="Macro Manager"
+		sourceFile="service.js"
+		functionName="createInstance">
+	</ScriptClass>
+
+	<!-- S1 Startpage + Menu Integration -->
+	<ScriptClass
+		classID="{100B9190-D677-476A-AF31-B3E4FFD13775}"
+		category="Gadget"
+		name="Macro Organizer"
+		sourceFile="gadget.js"
+		functionName="createInstance"
+		metaClassID="{4E0DB434-6E09-4839-9B5A-4B4102EA0B0F}">
+	</ScriptClass>
+
+	<ScriptMetaClass classID="{4E0DB434-6E09-4839-9B5A-4B4102EA0B0F}">
+		<ScriptClassResource id="Class:GadgetResource" url="resources/gadget.xml"/> <!-- form and icon descriptions for gadget -->
+	</ScriptMetaClass>
+
+	<!-- S1 Toolbar Integration -->
+	<ScriptClass
+		classID="{7BD5E71B-5622-49cb-BFB2-8DEEF47B257D}"
+		category="EditAddIn"
+		subCategory="Engine"
+		name="Macros"
+		sourceFile="main.js"
+		functionName="createInstance"
+		metaClassID="{AF34837A-8B6F-4311-AABA-E75CAF80428C}">
+		<Attribute id="formName" value="MacroPanel"/>
+		<Attribute id="groupName" value="Song.AddInPanel"/> <!-- enabled in all editors (Arrangement/Audio/Music) -->
+	</ScriptClass>
+
+	<ScriptMetaClass classID="{AF34837A-8B6F-4311-AABA-E75CAF80428C}">
+		<ScriptClassResource id="Class:ImageResource" url="theme://$package/MacroToolbarIcon"/> <!-- icon used by toolbar button -->
+	</ScriptMetaClass>	
+</ClassFactory>

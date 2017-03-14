@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Copy To New Track" group="Edit" description="">
+	<CommandElement category="Edit" name="Split Range"/>
+	<CommandElement category="Edit" name="Copy"/>
+	<CommandElement category="Track" name="Duplicate"/>
+	<CommandElement category="Edit" name="Paste at Original Position"/>
+</Macro>

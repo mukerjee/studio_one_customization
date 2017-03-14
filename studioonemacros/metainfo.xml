@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaInformation>
+	<Attribute id="Package:ID" value="presonus.studioone.macros"/>
+	<Attribute id="Package:Name" value="Studio One Macro Toolbar"/>
+	<Attribute id="Package:Description" value="Macro Toolbar inspired by the Studio One beta testers"/>
+	<Attribute id="Package:Version" value="1.0.0.14"/>
+	<Attribute id="Package:Vendor" value="PreSonus Software Ltd."/>
+	<Attribute id="Package:Website" value="http://www.presonussoftware.com"/>
+	
+	<?language de?>
+	<Attribute id="Package:LocalizedName" value="Studio One Makro-Toolbar"/>
+	<Attribute id="Package:LocalizedDescription" value="Makro-Toolbar inspiriert von den Studio One Betatestern"/>
+	<?language ja?>
+	<Attribute id="Package:LocalizedName" value="Studio Oneマクロツールバー"/>
+	<Attribute id="Package:LocalizedDescription" value="Studio Oneベータテスターからアイデアを得たマクロツールバー"/>
+	<?language zh?>
+	<Attribute id="Package:LocalizedName" value="Studio One宏工具条"/>
+	<Attribute id="Package:LocalizedDescription" value="宏工具条由Studio One数据测试者研发"/>
+	<?language fr?>
+	<Attribute id="Package:LocalizedName" value="Barre d'outils macro de Studio One"/>
+	<Attribute id="Package:LocalizedDescription" value="Barre d'outils macro inspirée par les bêta-testeurs de Studio One"/>
+	<?language es?>
+	<Attribute id="Package:LocalizedName" value="Barra de herramientas de Macros de Studio One"/>
+	<Attribute id="Package:LocalizedDescription" value="Barra de herramientas de Macros inspirada por los beta testers de Studio One"/>
+	<?language pt?>
+	<Attribute id="Package:LocalizedName" value="Barra de Ferramentas de Macros do Studio One"/>
+	<Attribute id="Package:LocalizedDescription" value="Barra de Macros inspirada pelos beta testers do Studio One"/>
+	<?language?>	
+</MetaInformation>

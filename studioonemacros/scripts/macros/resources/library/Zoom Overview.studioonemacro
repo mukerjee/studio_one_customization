@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Zoom Overview" group="Zoom">
+	<CommandElement category="Edit" name="Select All"/>
+	<CommandElement category="Zoom" name="Zoom to Selection">
+		<CommandArgument name="State" value="1"/>
+	</CommandElement>
+	<CommandElement category="Edit" name="Deselect All"/>
+</Macro>

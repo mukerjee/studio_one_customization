@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceDefinition 
+              classID="{0c380b30-f982-4117-aa05-efbaad415336}" 
+              name="QuickGrid" category="Surface"
+              nativeCode="ControlSurfaceDevice"
+              vendor="DAW.One"
+              surfaceFile="QuickGrid.surface.xml"
+              surfacePlacementSize="16"
+              imageFile="QuickGrid.png"
+              textFile="QuickGrid.txt"
+              skinFile="skin/"
+              formName="QuickGrid"
+              />

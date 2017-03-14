@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Remove Record" group="Audio" description="">
+	<CommandElement category="Transport" name="Stop"/>
+	<CommandElement category="Edit" name="Undo"/>
+</Macro>

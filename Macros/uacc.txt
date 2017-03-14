@@ -1,0 +1,118 @@
+ Longs
+ 1. Generic
+ 2. Alternative
+ 3. Octave
+ 4. Octave muted
+ 5. Small (half)
+ 6. Small muted (half muted)
+ 7. Muted (cs, stopped)
+ 8. Soft (flautando, hollow)
+ 9. Hard (cuivre, overblown, nasty)
+ 10. Harmonic
+ 11. Trem (tremolando, flutter)
+ 12. Trem muted (tremolando, flutter cs, stopped)
+ 13. Trem soft (trem sul tasto)
+ 14. Trem hard (flutter overblown, sul pont)
+ 15. Trem muted soft (trem cs sul tasto)
+ 16. Vibrato (molto or vib. only)
+ 17. Higher (bells up, sul tasto)
+ 18. Lower (sul pont)
+ 19. Lower muted (cs sul pont)
+ Legato
+ 20. Generic
+ 21. Alternative
+ 22. Octave
+ 23. Octave muted
+ 24. Small
+ 25. Small muted
+ 26. Muted
+ 27. Soft
+ 28. Hard
+ 29. Harmonic
+ 30. Trem
+ 31. Slow (portamento, glissandi)
+ 32. Fast
+ 33. Slurred (legato runs)
+ 34. Detache
+ 35. Higher (sul tasto)
+ 36. Lower (sul pont)
+ 37.
+ 38.
+ 39.
+ Shorts
+ 40. Generic
+ 41. Alternative
+ 42. Very short (spiccato, staccatissimo)
+ 43. Very short soft
+ 44. Leisurely (longer staccato)
+ 45. Octave
+ 46. Octave muted
+ 47. Muted (cs, stopped)
+ 48. Soft (brushed, feathered)
+ 49. Hard (dig)
+ 50. Tenuto
+ 51. Tenuto soft
+ 52. Marcato
+ 53. Marcato soft
+ 54. Marcato hard (bells up)
+ 55. Marcato longer
+ 56. Plucked (pizzicato)
+ 57. Plucked hard (Bartok)
+ 58. Struck (col legno)
+ 59. Higher (bells up, sul tasto)
+ 60. Lower (sul pont)
+ 61. Harmonic
+ 62.
+ 63.
+ 64.
+ 65.
+ 66.
+ 67.
+ 68.
+ 69.
+ Decorative
+ 70. Trill min 2nd
+ 71. Trill maj 2nd
+ 72. Trill min 3rd
+ 73. Trill maj 3rd
+ 74. Trill perf 4th
+ 75. Multitongue
+ 76. Multitongue muted
+ 77.
+ 78.
+ 79.
+ 80. Synced - 120bpm (trem, trill)
+ 81. Synced - 150bpm (trem, trill)
+ 82. Synced - 180bpm (trem, trill)
+ 83.
+ 84.
+ 85.
+ 86.
+ 87.
+ 88.
+ 89.
+ Phrases
+ 90. FX 1
+ 91. FX 2
+ 92. FX 3
+ 93. FX 4
+ 94. FX 5
+ 95. FX 6
+ 96. FX 7
+ 97. FX 8
+ 98. FX 9
+ 99. FX 10
+ 100. Upwards (rips and runs)
+ 101. Downwards (falls and runs)
+ 102. Crescendo
+ 103. Diminuendo
+ 104. Arc
+ 105. Slides
+ 106.
+ 107.
+ 108.
+ 109.
+ Various
+ 110. Disco upwards (rips)
+ 111. Disco downwards (falls)
+ 112. Single string (sul C, G, etc.)

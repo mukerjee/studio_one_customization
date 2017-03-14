@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+		Skin file for QuickGrid External Device
+		For more information visit: http://daw.one
+-->
+<Skin>
+  <!-- Resources -->
+  <Resources>
+    <Image name="buttonBack"	url="buttonBack.png"	frames="normal mouseover pressed"/>
+  </Resources>
+  <!-- Styles -->
+  <Styles>
+    <Style name="credits">
+      <Font  name="textfont"   themeid="PresonusUI" size="10"/>
+      <Color name="textcolor"  color="#aaaaaa" />
+    </Style>
+    <Style name="catLabel">
+      <Font  name="textfont"   themeid="PresonusUI" size="10"/>
+      <Color name="textcolor"  color="#d0d0d0" />
+    </Style>
+    <Style name="longsButton">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#549acd" />
+    </Style>
+    <Style name="shortsButton">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#9c44a3" />
+    </Style>
+    <Style name="legatoButton">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#5f9e48" />
+    </Style>
+    <Style name="decorativeButton">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#673c8a" />
+    </Style>
+  </Styles>
+  <!-- Quickgrid Editor -->
+  <Forms>
+    <Form name="QuickGrid" title="QuickGrid Editor" windowstyle="sizable restoresize restorepos" attach="all" datatarget="ControlSurface/Editor/ControlList">
+      <using controller="ControlSurface/Editor">
+        <View attach="all fitsize" size="0,0,0,0">
+          <Horizontal attach="all" width="1014" spacing="0" margin="5">
+            <Vertical attach="all" spacing="5" margin="0">
+              
+              <!-- Longs -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <using controller="longsGeneric">
+                  <TextBox name="controlTitle" style="longsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="longsHard">
+                  <TextBox name="controlTitle" style="longsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="longsSoft">
+                  <TextBox name="controlTitle" style="longsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="longsHarmonic">
+                  <TextBox name="controlTitle" style="longsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="longsMuted">
+                  <TextBox name="controlTitle" style="longsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="longsTremolo">
+                  <TextBox name="controlTitle" style="longsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="longsHigher">
+                  <TextBox name="controlTitle" style="longsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="longsLower">
+                  <TextBox name="controlTitle" style="longsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+              </Horizontal>
+              
+              <!-- Shorts -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <using controller="shortsGeneric">
+                  <TextBox name="controlTitle" style="shortsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="shortsHard">
+                  <TextBox name="controlTitle" style="shortsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="shortsSpicc">
+                  <TextBox name="controlTitle" style="shortsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="shortsMarcato">
+                  <TextBox name="controlTitle" style="shortsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="shortsMuted">
+                  <TextBox name="controlTitle" style="shortsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="shortsPizz">
+                  <TextBox name="controlTitle" style="shortsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="shortsColLengo">
+                  <TextBox name="controlTitle" style="shortsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="shortsLongStacc">
+                  <TextBox name="controlTitle" style="shortsButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+              </Horizontal>
+              
+              <!-- Legato -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <using controller="legatoGeneric">
+                  <TextBox name="controlTitle" style="legatoButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="legatoHard">
+                  <TextBox name="controlTitle" style="legatoButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="legatoRuns">
+                  <TextBox name="controlTitle" style="legatoButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="legatoOctave">
+                  <TextBox name="controlTitle" style="legatoButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="legatoMuted">
+                  <TextBox name="controlTitle" style="legatoButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="legatoPort">
+                  <TextBox name="controlTitle" style="legatoButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="legatoHigher">
+                  <TextBox name="controlTitle" style="legatoButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="legatoLower">
+                  <TextBox name="controlTitle" style="legatoButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+              </Horizontal>
+              
+              <!-- Decorative -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <using controller="decorativeTrillMi2">
+                  <TextBox name="controlTitle" style="decorativeButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="decorativeTrillM2">
+                  <TextBox name="controlTitle" style="decorativeButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="decorativeTrillMi3">
+                  <TextBox name="controlTitle" style="decorativeButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="decorativeTrillM3">
+                  <TextBox name="controlTitle" style="decorativeButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="decorativeTrillP4">
+                  <TextBox name="controlTitle" style="decorativeButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="decorativeSlides">
+                  <TextBox name="controlTitle" style="decorativeButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="decorativeUp">
+                  <TextBox name="controlTitle" style="decorativeButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+                <using controller="decorativeDown">
+                  <TextBox name="controlTitle" style="decorativeButton" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                    <Button name="controlValue" image="buttonBack" attach="all fill" />
+                    <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                  </TextBox>
+                </using>
+              </Horizontal>
+              
+              <!-- Credits -->
+              
+              <Label title="QuickGrid 1.2 | Studio One Shortcut Grid Device By DAW.One | 2015" style="credits" />
+            </Vertical>
+          </Horizontal>
+        </View>
+      </using>
+    </Form>
+  </Forms>
+</Skin>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Move and Legato Articulations" group="Edit" description="">
+	<CommandElement category="Quantize" name="1/64"/>
+	<CommandElement category="Edit" name="Nudge Back"/>
+	<CommandElement category="Quantize" name="1/8"/>
+	<CommandElement category="Musical Functions" name="Length">
+		<CommandArgument name="Mode" value="4"/>
+		<CommandArgument name="Value" value="0.5"/>
+		<CommandArgument name="FactorValue" value="0.20000000298023223876953125"/>
+		<CommandArgument name="LegatoOverlap" value="0"/>
+	</CommandElement>
+</Macro>

@@ -1,0 +1,3 @@
+CustomGrid is an External Device that can be used to quickly trigger Studio One functions.
+You can assign a command to each of the 64 (MIDI) buttons.
+For more information visit daw.one.

@@ -1,0 +1,1010 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns:x="http://www.presonussoftware.com/xml/ccl" name="Studio One" version="1">
+	<Section path="">
+		<Attributes/>
+	</Section>
+	<Section path="ArtistData">
+		<Attributes artistName="Matthew Mukerjee" artistPage="" genre=""/>
+	</Section>
+	<Section path="AudioClick">
+		<Attributes accentGain="1.5" downbeatGain="0.59693872928619384765625" offbeatGain="0">
+			<Url x:id="accentSample" type="1" url="file:///Applications/Studio One 3.app/Contents/clicks/Tools 1.wav"/>
+			<Url x:id="downbeatSample" type="1" url="file:///Applications/Studio One 3.app/Contents/clicks/Tools 2.wav"/>
+			<Url x:id="offbeatSample" type="1" url="file:///Applications/Studio One 3.app/Contents/clicks/Tools 1.wav"/>
+		</Attributes>
+	</Section>
+	<Section path="AudioEditor">
+		<Attributes unit="0"/>
+	</Section>
+	<Section path="AudioFilePublisher">
+		<Attributes>
+			<PersistentAttributes x:id="params"/>
+		</Attributes>
+	</Section>
+	<Section path="AudioFilePublisher.AudioCodec">
+		<Attributes>
+			<FileType x:id="fileType" description="Wave File" extension="wav" mimeType="audio/x-wav" macType="1163280727"/>
+			<AudioStreamFormat x:id="format" sampleRate="48000" numChannels="2" bitDepth="24"/>
+		</Attributes>
+	</Section>
+	<Section path="AudioIO">
+		<Attributes>
+			<AudioIOConfiguration x:id="default" previewChannel="{4E804666-55E6-1143-A122-5E8597C8E1D0}">
+				<Attributes x:id="channels">
+					<AudioChannelDescription label="Main" type="AudioOutput" uniqueID="{4E804666-55E6-1143-A122-5E8597C8E1D0}">
+						<SpeakerSetup x:id="speakerType" type="Stereo"/>
+						<PersistentAttributes x:id="attributes">
+							<Attribute id="cueMixEnabled" value="0"/>
+						</PersistentAttributes>
+					</AudioChannelDescription>
+					<AudioChannelDescription label="D112" type="AudioInput" uniqueID="{A530CF0A-B357-604A-B3F7-B12D6B612B1C}">
+						<SpeakerSetup x:id="speakerType" type="Mono"/>
+					</AudioChannelDescription>
+					<AudioChannelDescription label="DI" type="AudioInput" uniqueID="{B8DF710A-FD87-174F-B5FA-73D14001DDF8}">
+						<SpeakerSetup x:id="speakerType" type="Mono"/>
+					</AudioChannelDescription>
+					<AudioChannelDescription label="Mic 3" type="AudioInput" uniqueID="{1EB2ABF9-90E8-2846-A099-817B80BE60DD}">
+						<SpeakerSetup x:id="speakerType" type="Mono"/>
+					</AudioChannelDescription>
+					<AudioChannelDescription label="Mic 4" type="AudioInput" uniqueID="{4BEAC9CE-917C-BE48-9F9B-190A26D00A7C}">
+						<SpeakerSetup x:id="speakerType" type="Mono"/>
+					</AudioChannelDescription>
+					<AudioChannelDescription label="Compressor" type="AudioInput" uniqueID="{85781E70-3149-7A47-9C4B-374A660C264F}">
+						<SpeakerSetup x:id="speakerType" type="Mono"/>
+					</AudioChannelDescription>
+				</Attributes>
+				<Attributes x:id="assignment" deviceID="{0C243F3D-0000-0043-4F52-45415544494F}" deviceName="Universal Audio Apollo"
+				            machineID="Matthew’s Mac Pro">
+					<Attributes x:id="inputs">
+						<PortAssignment name="{A530CF0A-B357-604A-B3F7-B12D6B612B1C}">
+							<Association key="M" value="{0C243F3D-0000-0043-4F52-45415544494F}/AudioOutput00"/>
+						</PortAssignment>
+						<PortAssignment name="{B8DF710A-FD87-174F-B5FA-73D14001DDF8}">
+							<Association key="M" value="{0C243F3D-0000-0043-4F52-45415544494F}/AudioOutput01"/>
+						</PortAssignment>
+						<PortAssignment name="{1EB2ABF9-90E8-2846-A099-817B80BE60DD}">
+							<Association key="M" value="{0C243F3D-0000-0043-4F52-45415544494F}/AudioOutput02"/>
+						</PortAssignment>
+						<PortAssignment name="{4BEAC9CE-917C-BE48-9F9B-190A26D00A7C}">
+							<Association key="M" value="{0C243F3D-0000-0043-4F52-45415544494F}/AudioOutput03"/>
+						</PortAssignment>
+						<PortAssignment name="{85781E70-3149-7A47-9C4B-374A660C264F}">
+							<Association key="M" value="{0C243F3D-0000-0043-4F52-45415544494F}/AudioOutput04"/>
+						</PortAssignment>
+					</Attributes>
+					<Attributes x:id="outputs">
+						<PortAssignment name="{4E804666-55E6-1143-A122-5E8597C8E1D0}">
+							<Association key="L" value="{0C243F3D-0000-0043-4F52-45415544494F}/AudioInput04"/>
+							<Association key="R" value="{0C243F3D-0000-0043-4F52-45415544494F}/AudioInput05"/>
+						</PortAssignment>
+					</Attributes>
+				</Attributes>
+			</AudioIOConfiguration>
+		</Attributes>
+	</Section>
+	<Section path="AudioMixer/LevelMeterOptions">
+		<Attributes mode="0" rmsLength="0" vuHold="0" holdLength="0"/>
+	</Section>
+	<Section path="Browser.Browser">
+		<Attributes/>
+	</Section>
+	<Section path="Browser.CloudBrowser">
+		<Attributes showThumbnails="0" stateIndex="0">
+			<List x:id="states">
+				<BrowserState name="Cloud" root="root/Cloud" focus="root/Cloud">
+					<Attributes x:id="state" name="Cloud">
+						<List x:id="childs">
+							<Attributes name="exchange"/>
+							<Attributes name="soundcloud"/>
+						</List>
+					</Attributes>
+				</BrowserState>
+			</List>
+		</Attributes>
+	</Section>
+	<Section path="Browser.EffectsBrowser">
+		<Attributes stateIndex="0" showThumbnails="0">
+			<Attributes x:id="childs">
+				<Attributes x:id="Sorter" sortBy="2"/>
+			</Attributes>
+			<List x:id="states">
+				<BrowserState name="Effects" root="root/AudioEffect" focus="">
+					<Attributes x:id="state" name="AudioEffect"/>
+				</BrowserState>
+			</List>
+		</Attributes>
+	</Section>
+	<Section path="Browser.FileBrowser">
+		<Attributes initialized="2" stateIndex="0" showThumbnails="0">
+			<List x:id="states">
+				<BrowserState name="Instruments" root="root/Volumes/SSD-512/Studio One/Plugins/Instruments" focus="root/Volumes/SSD-512/Studio One/Plugins/Instruments/Kontakt 5 Empty">
+					<Attributes x:id="state" name="Instruments">
+						<List x:id="childs">
+							<Attributes name="Band">
+								<List x:id="childs">
+									<Attributes name="Bass"/>
+									<Attributes name="Drums"/>
+									<Attributes name="Violin"/>
+								</List>
+							</Attributes>
+							<Attributes name="Electric Pianos and Organs"/>
+							<Attributes name="Orchestral">
+								<List x:id="childs">
+									<Attributes name="Strings"/>
+								</List>
+							</Attributes>
+							<Attributes name="Pianos"/>
+						</List>
+					</Attributes>
+				</BrowserState>
+				<BrowserState name="Studio One" root="root/Studio One" focus="root/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 4.song/Performances/Tuba/Tuba(183).music">
+					<Attributes x:id="state" name="Studio One">
+						<List x:id="childs">
+							<Attributes name="Songs">
+								<List x:id="childs">
+									<Attributes name="FFX">
+										<List x:id="childs">
+											<Attributes name="Ultimate Journey">
+												<List x:id="childs">
+													<Attributes name="01 - Welcome">
+														<List x:id="childs">
+															<Attributes name="Media"/>
+															<Attributes name="01 - Welcome - Round 3.song">
+																<List x:id="childs">
+																	<Attributes name="Performances"/>
+																</List>
+															</Attributes>
+															<Attributes name="01 - Welcome - Round 4.song">
+																<List x:id="childs">
+																	<Attributes name="Performances">
+																		<List x:id="childs">
+																			<Attributes name="Tuba"/>
+																		</List>
+																	</Attributes>
+																</List>
+															</Attributes>
+														</List>
+													</Attributes>
+												</List>
+											</Attributes>
+										</List>
+									</Attributes>
+								</List>
+							</Attributes>
+						</List>
+					</Attributes>
+				</BrowserState>
+				<BrowserState name="Downloads" root="root/Volumes/Macintosh HD/Users/mukerjee/Downloads" focus="root/Volumes/Macintosh HD/Users/mukerjee/Downloads/tuba_FFX_welcome.L.wav">
+					<Attributes x:id="state" name="Downloads">
+						<List x:id="childs">
+							<Attributes name="Bounce Marc FF8 151218"/>
+							<Attributes name="FFX Choirs Vuvu"/>
+							<Attributes name="hotlandexpressstems"/>
+							<Attributes name="Liberi Fatali - Alto 2"/>
+							<Attributes name="Mount Wario"/>
+							<Attributes name="Mount Wario Trumpets"/>
+							<Attributes name="PROJ004"/>
+							<Attributes name="Rundyne">
+								<List x:id="childs">
+									<Attributes name="Stems"/>
+								</List>
+							</Attributes>
+							<Attributes name="stems"/>
+							<Attributes name="Palace_of_Kris.mid"/>
+							<Attributes name="Palace_of_Kris.song"/>
+							<Attributes name="Rundyne_11.midi"/>
+						</List>
+					</Attributes>
+				</BrowserState>
+				<BrowserState name="mukerjee" root="root/Volumes/Macintosh HD/Users/mukerjee" focus="root/Volumes/Macintosh HD/Users/mukerjee/Downloads">
+					<Attributes x:id="state" name="mukerjee">
+						<List x:id="childs">
+							<Attributes name="Dropbox">
+								<List x:id="childs">
+									<Attributes name="DropTunes"/>
+									<Attributes name="Music Todo"/>
+								</List>
+							</Attributes>
+						</List>
+					</Attributes>
+				</BrowserState>
+			</List>
+		</Attributes>
+	</Section>
+	<Section path="Browser.InstrumentBrowser">
+		<Attributes stateIndex="0" showThumbnails="0">
+			<Attributes x:id="childs">
+				<Attributes x:id="Sorter" sortBy="0"/>
+			</Attributes>
+			<List x:id="states">
+				<BrowserState name="Instruments" root="root/AudioSynth" focus="">
+					<Attributes x:id="state" name="AudioSynth"/>
+				</BrowserState>
+			</List>
+		</Attributes>
+	</Section>
+	<Section path="Browser.LoopBrowser">
+		<Attributes initialized="1" showThumbnails="0" stateIndex="0">
+			<Attributes x:id="childs">
+				<Attributes x:id="TagChainSelector">
+					<List x:id="categories">
+						<String text="Style"/>
+						<String text="Instrument"/>
+						<String text="Character"/>
+					</List>
+				</Attributes>
+			</Attributes>
+			<List x:id="states">
+				<BrowserState name="1" root="root/Loops" focus="root/Loops">
+					<Attributes x:id="state" name="Loops"/>
+				</BrowserState>
+			</List>
+		</Attributes>
+	</Section>
+	<Section path="Browser.SoundSetBrowser">
+		<Attributes stateIndex="0" initialized="1" showThumbnails="0">
+			<Attributes x:id="childs">
+				<Attributes x:id="TagChainSelector">
+					<List x:id="categories">
+						<String text="Style"/>
+						<String text="Instrument"/>
+						<String text="Character"/>
+						<String text="Type"/>
+					</List>
+				</Attributes>
+			</Attributes>
+			<List x:id="states">
+				<BrowserState name="1" root="root/Loops" focus="root/Loops">
+					<Attributes x:id="state" name="Loops"/>
+				</BrowserState>
+			</List>
+		</Attributes>
+	</Section>
+	<Section path="BrowserFileTypes">
+		<Attributes>
+			<Attributes x:id="userFileTypes"/>
+		</Attributes>
+	</Section>
+	<Section path="ChannelOrganizer">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="syncFolderBusChannels" value="1"/>
+				<Attribute id="groupBusChannels" value="0"/>
+				<Attribute id="groupFXChannels" value="1"/>
+				<Attribute id="groupVCAChannels" value="1"/>
+				<Attribute id="visibilitySyncEnabled" value="1"/>
+				<Attribute id="followFolderExpand" value="1"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="Configuration">
+		<Attributes>
+			<PersistentAttributes x:id="values">
+				<Attribute id="Application.DocumentHandler.startupAction" value="0"/>
+				<Attribute id="Application.CheckUpdates.enabled" value="1"/>
+				<Attribute id="Engine.Song.copyExternalOnSave" value="1"/>
+				<Attribute id="Editing.cursorOverlayEnabled" value="0"/>
+				<Attribute id="Editing.crossCursorEnabled" value="1"/>
+				<Attribute id="TimeEdit.Editing.locateInEmptySpace" value="0"/>
+				<Attribute id="TimeEdit.Envelopes.smoothingEnabled" value="1"/>
+				<Attribute id="Engine.EventTheme.transparencyEnabled" value="1"/>
+				<Attribute id="Engine.EventTheme.hideEventNames" value="1"/>
+				<Attribute id="Engine.Audio.cacheEnabled" value="1"/>
+				<Attribute id="Engine.Audio.recordTempo" value="1"/>
+				<Attribute id="Devices.AudioEngine.stopOnSetup" value="0"/>
+				<Attribute id="Devices.AudioEngine.suspendInBackground" value="0"/>
+				<Attribute id="Devices.AudioEngine.useMixThread" value="0"/>
+				<Attribute id="Devices.AudioEngine.usePreRecord" value="1"/>
+				<Attribute id="Devices.AudioEngine.preRecordSeconds" value="60"/>
+				<Attribute id="Devices.AudioEngine.recordOffset" value="0"/>
+				<Attribute id="Media.AudioFile.allowNonBufferedRead" value="0"/>
+				<Attribute id="Media.AudioFile.defaultDither" value="1"/>
+				<Attribute id="Engine.MasterRenderer.isRealtime" value="0"/>
+				<Attribute id="Engine.RootEvent.playOverlaps" value="0"/>
+				<Attribute id="Engine.Music.filterAfterTouch" value="1"/>
+				<Attribute id="Engine.Music.filterProgramChange" value="1"/>
+				<Attribute id="Engine.Music.filterPitchBend" value="0"/>
+				<Attribute id="Engine.Music.recordOffset" value="10"/>
+				<Attribute id="Engine.Music.chaseNotes" value="1"/>
+				<Attribute id="Engine.Music.cutNotes" value="1"/>
+				<Attribute id="Engine.Music.revealPrerecorded" value="0"/>
+				<Attribute id="Devices.Transport.loopTimecode" value="1"/>
+				<Attribute id="Engine.Editing.automationFollowsEvents" value="1"/>
+				<Attribute id="Engine.Envelopes.eventsUnderEnvelopeDisabled" value="1"/>
+				<Attribute id="Devices.Automation.catchAll" value="0"/>
+				<Attribute id="Devices.AudioChannel.defaultParamVolume" value="1"/>
+				<Attribute id="Devices.AudioChannel.defaultParamPan" value="0"/>
+				<Attribute id="Devices.AudioChannel.defaultParamMute" value="1"/>
+				<Attribute id="Devices.Audio.monitorFollowsRecord" value="0"/>
+				<Attribute id="Devices.Audio.monitorMutesPlayback" value="0"/>
+				<Attribute id="Devices.Audio.ignoreTimestamps" value="0"/>
+				<Attribute id="Devices.Music.monitorFollowsRecord" value="1"/>
+				<Attribute id="Devices.Editor.followChannelSelection" value="1"/>
+				<Attribute id="Devices.Transport.returnToStartOnStop" value="1"/>
+				<Attribute id="Engine.Editing.monitorFollowsSelection" value="1"/>
+				<Attribute id="Engine.Editing.audioMonitorFollowsSelection" value="0"/>
+				<Attribute id="Engine.Editing.soloFollowsSelection" value="0"/>
+				<Attribute id="Application.AutoSaver.enabled" value="1"/>
+				<Attribute id="Application.AutoSaver.period" value="120"/>
+				<Attribute id="GUI.Graphics.smoothTextEnabled" value="0"/>
+				<Attribute id="GUI.Controls.Knob.mode" value="0"/>
+				<Attribute id="GUI.Controls.Slider.mode" value="0"/>
+				<Attribute id="Engine.Editing.midiValuePresentationEnabled" value="1"/>
+				<Attribute id="Devices.External.shouldNotifyLostDevices" value="0"/>
+				<Attribute id="Engine.Editing.trackColorFollowsFolder" value="1"/>
+				<Attribute id="Devices.Channel.stripColorEnabled" value="1"/>
+				<Attribute id="GUI.ColorSchemes.Main.hueLevel" value="0"/>
+				<Attribute id="GUI.ColorSchemes.Main.saturationLevel" value="0.558641970157623291015625"/>
+				<Attribute id="GUI.ColorSchemes.Main.luminanceLevel" value="1"/>
+				<Attribute id="GUI.ColorSchemes.Main.contrastLevel" value="1"/>
+				<Attribute id="GUI.ColorSchemes.Arrangement.hueLevel" value="0"/>
+				<Attribute id="GUI.ColorSchemes.Arrangement.saturationLevel" value="0.558641970157623291015625"/>
+				<Attribute id="GUI.ColorSchemes.Arrangement.luminanceLevel" value="0.851851880550384521484375"/>
+				<Attribute id="GUI.ColorSchemes.Arrangement.contrastLevel" value="1"/>
+				<Attribute id="Engine.Editing.trackColorEnabled" value="1"/>
+				<Attribute id="Engine.Editing.tracksShowChannelNumbers" value="1"/>
+				<Attribute id="Devices.Automation.showAutomationForNewChannel" value="1"/>
+				<Attribute id="TimeEdit.Editing.loopFollowsSelection" value="0"/>
+				<Attribute id="Editing.SelectTool.topRangeToolEnabled" value="1"/>
+				<Attribute id="Engine.Song.autoColorTracks" value="1"/>
+				<Attribute id="Engine.MediaTrack.playOverlapsDefault" value="0"/>
+				<Attribute id="Engine.Editing.expandLayersAfterRecordingTakes" value="1"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="Content">
+		<Attributes>
+			<Url x:id="location" type="2" url="file:///Volumes/SSD-512/Studio One/"/>
+		</Attributes>
+	</Section>
+	<Section path="Dashboard">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="dashboardTab" value="0"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="EULA">
+		<Attributes accepted-en="1"/>
+	</Section>
+	<Section path="EditAddIn/{4AFF7ACB-AE54-4F81-94FE-A4A71E76D708}">
+		<Attributes>
+			<Attributes x:id="processParams" autoFillRatio="3" linkThresholds="0" threshold="-50" closeThreshold="-50"
+			            minTime="1" preRoll="0.75" postRoll="0.25"/>
+			<Attributes x:id="taskParams" fadePadding="1" fadeInLength="0.001000000047497451305389404296875" fadeOutLength="0.0500000007450580596923828125"/>
+		</Attributes>
+	</Section>
+	<Section path="EditAddIn/{A0961504-66E3-4D98-A413-69673B2400BD}">
+		<Attributes action="1" addGrid="0" makePart="0" autoFill="1" autoFades="1" quantizeSlices="1" fadeLength="0.00999999977648258209228515625">
+			<Attributes x:id="detectionParams" transientMode="0"/>
+		</Attributes>
+	</Section>
+	<Section path="EditAddIn/{C7EC5949-4F62-4520-831E-023CD7BC7E47}">
+		<Attributes/>
+	</Section>
+	<Section path="EditTask/{241C33C9-5C52-466A-BCE3-738216AB206A}">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="Name" value=""/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="EditTask/{32F9E8F0-D12D-4DF5-AB88-C2553EE9E231}">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="Name" value=""/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="EditTask/{4020F13F-C504-4123-8CC6-503AFDDFC3AC}">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="Name" value=""/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="EditTask/{8F593053-1B2E-4223-A974-01F0BEB98514}">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="Mode" value="1"/>
+				<Attribute id="AddValue" value="0"/>
+				<Attribute id="SetValue" value="80"/>
+				<Attribute id="ScaleValue" value="0.826086938381195068359375"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="EditTask/{B173C4D4-52F6-48F4-B832-410568F1013C}">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="Mode" value="5"/>
+				<Attribute id="Value" value="2"/>
+				<Attribute id="FactorValue" value="0.20000000298023223876953125"/>
+				<Attribute id="LegatoOverlap" value="0"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="EditTask/{E1F33D6A-F8AA-4370-8902-7D6E968ADF26}">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="TypeList" value="1"/>
+				<Attribute id="TrackName" value="Tuba Dummy"/>
+				<Attribute id="TrackCount" value="2"/>
+				<Attribute id="TrackColor" value="-41146"/>
+				<Attribute id="AutoColor" value="1"/>
+				<Attribute id="AudioFormat" value="0"/>
+				<Attribute id="AudioInputAscending" value="1"/>
+				<Attribute id="AudioOutputAscending" value="0"/>
+				<Attribute id="InstrumentInputAscending" value="0"/>
+				<Attribute id="InstrumentOutputAscending" value="0"/>
+				<Attribute id="AddInstrument" value="0"/>
+				<Attribute id="PackFolder" value="0"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="EditTask/{E92E4A48-9E5F-4FAA-BF42-9943CC2DB801}">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="New Name" value="Room Mic"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="EditTask/{F55A9827-CE2E-4397-B7FE-79322CBDA95C}">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="Mode" value="0"/>
+				<Attribute id="AddValue" value="1"/>
+				<Attribute id="SetValue" value="60"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="EditTask/{F9BA968E-12E7-419D-A41A-5510F3D2142D}">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="Name" value=""/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="EditTask/{FAF20DEB-BBF6-4611-B460-0E47EE7DB047}">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="Name" value=""/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="Engine/AudioTransformDialog">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="preserveRealtimeState" value="1"/>
+				<Attribute id="autoTail" value="0"/>
+				<Attribute id="tail" value="0"/>
+				<Attribute id="maxTail" value="30"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="Engine/MusicTransformDialog">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="preserveInstrumentState" value="1"/>
+				<Attribute id="removeInstrument" value="1"/>
+				<Attribute id="renderInserts" value="1"/>
+				<Attribute id="autoTail" value="1"/>
+				<Attribute id="tail" value="20"/>
+				<Attribute id="maxTail" value="30"/>
+				<Attribute id="renderAllOutputs" value="1"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="HardwareControls">
+		<Attributes/>
+	</Section>
+	<Section path="ImageMaker.AudioCodec">
+		<Attributes/>
+	</Section>
+	<Section path="InstallLicenseProvider/7OM4-RSOF-L4RA-ZD35-5ZF2-QMTZ-DE3B">
+		<Attributes/>
+	</Section>
+	<Section path="MediaPreview">
+		<Attributes gain="0.24897658824920654296875" synced="1"/>
+	</Section>
+	<Section path="Metronome">
+		<Attributes active="0" inPlay="1" inPrerollOnly="0" bars="1" repeatAccents="0"/>
+	</Section>
+	<Section path="MidiMonitorFilter">
+		<Attributes systemCommon="0" systemRealtime="0" systemExclusive="0" sendDisabled="0" receiveDisabled="0"/>
+	</Section>
+	<Section path="MusicDeviceDialog">
+		<Attributes lastCategory="2" lastSelected="{0C380B30-F982-4117-AA05-EFBAAD415336}"/>
+	</Section>
+	<Section path="MusicPreview">
+		<Attributes synced="1" looped="1"/>
+	</Section>
+	<Section path="NewSong">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="sampleRate" value="1"/>
+				<Attribute id="displayFormat" value="2"/>
+				<Attribute id="frameType" value="1"/>
+				<Attribute id="timeOffset" value="0"/>
+				<Attribute id="startMarker" value="0"/>
+				<Attribute id="endMarker" value="300"/>
+				<Attribute id="resolution" value="1"/>
+				<Attribute id="stretch" value="0"/>
+				<Attribute id="masterWithEffects" value="1"/>
+				<Attribute id="songLength" value="300"/>
+				<Attribute id="tempo" value="260"/>
+				<Attribute id="timeSignatureNum" value="4"/>
+				<Attribute id="timeSignatureDenom" value="1"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="PackageNode">
+		<Attributes>
+			<ObjectList x:id="paths" count="38">
+				<List x:id="items">
+					<Url type="1" url="file:////Volumes/SSD-256/ProTools/Epic FF Medley - Drums/FFV-Battle2/ToEdit/FFV-Battle2-minimal.song"/>
+					<Url type="1" url="file:///Volumes/SSD-256/Studio One/Songs/Vuvu/Booom Bass part 145 bpm.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/KH Quick Mix/Tetrimino-KH-QuickMix.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Yoshi-QuickMix/Yoshi Quick Mix.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/DKR-QuickMix/DKR-QuickMix.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Run!-QuickMix/Run!-QuickMix.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino QuickMix/GHZ-QuckMix/2 Green Hill Zone.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino QuickMix/DRI-QuickMix/DRI-QuickMix.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/02 - The Spiral of Death/02 - The Spiral of Death.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino QuickMix/Run!-QuickMix/Run!-QuickMix.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino QuickMix/DDD-QuickMix/DDD-QuickMix.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/02 - The Spiral of Death/02 - The Spiral of Death - round 3.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino QuickMix/Yoshi-QuickMix/Yoshi Quick Mix.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/02 - The Spiral of Death/02 - The Spiral of Death - round 4.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 10.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - DEMO 2.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 19.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 28.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 27.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 25.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 22.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 23.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 24.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 14.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 13.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 12.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 11.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 10.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 14.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 23.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master3.project"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 3.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/02 - The Spiral of Death/02 - The Spiral of Death - round 5.song"/>
+					<Url type="1" url="file:////Users/mukerjee/Downloads/Palace_of_Kris.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Edit2.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 6.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 5.song"/>
+					<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 4.song"/>
+				</List>
+			</ObjectList>
+		</Attributes>
+	</Section>
+	<Section path="PlugInSelectorBrowser/AudioEffect">
+		<Attributes showThumbnails="0" stateIndex="0">
+			<Attributes x:id="childs">
+				<Attributes x:id="Sorter" sortBy="2"/>
+			</Attributes>
+		</Attributes>
+	</Section>
+	<Section path="PlugInSelectorBrowser/AudioMixEffect">
+		<Attributes/>
+	</Section>
+	<Section path="PlugInSelectorBrowser/AudioSynth">
+		<Attributes showThumbnails="0" stateIndex="0">
+			<Attributes x:id="childs">
+				<Attributes x:id="Sorter" sortBy="2"/>
+			</Attributes>
+		</Attributes>
+	</Section>
+	<Section path="PlugInSelectorBrowser/MusicEffect">
+		<Attributes/>
+	</Section>
+	<Section path="RecentDocuments">
+		<Attributes>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Test/Test.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Test/Test2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Test/Archive.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 11.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - notion tets.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - test.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 10.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 9.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 8.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/2016-08-28 FFX - 4.01 - Welcome(2)/FFX - 4.01 - Welcome.capture"/>
+			<Url type="1" url="file:///Users/mukerjee/Dropbox/Research/s1_session_import/examples/Empty-new.song"/>
+			<Url type="1" url="file:///Users/mukerjee/Dropbox/Research/s1_session_import/examples/Empty.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne - Mkla edits/Rundyne - Mkla Edits 3/Rundyne - Mkla Edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne - Mkla edits/Rundyne - Mkla Edits 2/Rundyne - Mkla Edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Mix Session7.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Mix Session6.song"/>
+			<Url type="1" url="file:///Users/mukerjee/Dropbox/Research/s1_session_import/examples/gra3cp-new.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Mix Session5.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Gradius 3/Cosmo Plant/gra3cp.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Mix Session4.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Mix Session3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Mix Session2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Mix Session.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - nomix.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Edit Session.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Edits3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Full Set/Disco Cactus - Full Set.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Test Disco Cactus/Test Disco Cactus.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Edits2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Tempo Map/Tempo Map.mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - Edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands - test2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Disco Cactus - Hotlands/Disco Cactus - Hotlands.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Mix6.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/03 - Ethnic Section/03 - Ethnic Section - 10.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne - Mkla edits/Rundyne - Mkla Edits/Rundyne - Mkla Edits 3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne - Mkla edits/Rundyne - Mkla Edits/Rundyne - Mkla Edits 2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne - Mkla edits/Rundyne - Mkla Edits/Rundyne - Mkla Edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Bass3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Bass no edits for mkla.song"/>
+			<Url type="1" url="file:///Users/mukerjee/Downloads/Rundyne/Rundyne - mkla no edits.song"/>
+			<Url type="1" url="file:///Users/mukerjee/Downloads/Rundyne/Rundyne.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Bass.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Mix.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - violin pitch.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Edit4.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - violin timing.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Edit3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Edit2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Drum Edit fifth third.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Drum Edit fourth third.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Drum Edit third third.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Drum Edit second third.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Drum Edit first third.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Drum Edit.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Edit.song"/>
+			<Url type="1" url="file:////Users/mukerjee/Downloads/Rundyne_11.midi?miditrack=3"/>
+			<Url type="1" url="file:////Users/mukerjee/Downloads/Rundyne_11.midi?miditrack=4"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne - Bass2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne 11.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne 9.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne 10.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne 8.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne 7.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne 6.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne 5.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne 4.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne 3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne 2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Rundyne/Rundyne.mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Drums Background/Keyboard.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Drums Background/Drums Background.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/To backup/TMG/Studio One/Songs/Streaming/Streaming - 6-25 - 3 - mix2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/To backup/TMG/Studio One/Songs/Streaming/Streaming - 6-24 - 2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/To backup/TMG/Studio One/Songs/Streaming/Streaming - 6-24.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/To backup/TMG/Studio One/Songs/Streaming/Streaming.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/To backup/TMG/Studio One/Songs/Streaming/Streaming - 6-25.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/To backup/TMG/Studio One/Songs/Streaming/Streaming - 6-25 - 3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino TMG/Tetrimino TMG.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/16 Into the Thick of It/Tetrimino-IntoTheThickOfIt.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/13 Vampire Killer/Tetrimino-VampireKiller.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/8 Yoshi Medley/Tetrimino-Yoshi.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/17 Tifa Funk/Tetrimino-TifaFunk.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/14 Lamprey/Tetrimino-Lamprey.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/18 Undertale/Tetrimino-Undertale.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/11 JENOVA/Tetrimino-Jenova.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/15 Inside the Castle Walls/Tetrimino-InsideTheCastleWalls.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/7 Kingdom Hearts Groove/Tetrimino-KH.song"/>
+			<Url type="1" url="file:///Users/mukerjee/Dropbox/Music/Protodome/PROTODOME - CHIPFUNK/PROTODOME - CHIPFUNK - WINGROOVIN.MID_MIDI.song"/>
+			<Url type="1" url="file:///Users/mukerjee/Dropbox/Music/Protodome/PROTODOME - CHIPFUNK/PROTODOME - CHIPFUNK - WINGROOVIN.MID_MIDI.mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/02 - The Spiral of Death/02 - The Spiral of Death - round 11.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/04 - Tidus/04 - Tidus - 3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/04 - Tidus/04 - Tidus - 2.song"/>
+			<Url type="1" url="file:///Users/mukerjee/Downloads/DrumTemplateNew/DrumTemplateNew.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/02 - The Spiral of Death/02 - The Spiral of Death - round 10.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/02 - The Spiral of Death/02 - The Spiral of Death - round 9.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Unbreakable Wings/prime_legacy_-_unbreakable_wings.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Choppastyle/Choppastyle.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/TMG Announcement/TMG Announcement.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Retro Zelda Month/Zelda 2 - Palace/Zelda - Palace.song"/>
+			<Url type="1" url="file:///Users/mukerjee/Downloads/Palace_of_Kris.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Retro Zelda Month/Fairy Fountain/Fairy_Fountain_(Demo_1).song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Retro Zelda Month/Fairy Fountain/Fairy_Fountain_(Demo_1).mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/10 DKR/Tetrimino-DKR.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/12 Bravely Default/Tetrimino-BD.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/04 - Tidus/04 - Tidus.mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/03 - Ethnic Section/03 - Ethnic Section - 9.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/02 - The Spiral of Death/02 - The Spiral of Death - round 8.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Retro Zelda Month/Tal Tal Heights/Tal_Tal_Heights_(Demo_2).song"/>
+			<Url type="1" url="file:///Users/mukerjee/Downloads/Tal_Tal_Heights_(Demo_2).song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Tetrimino Practice Tracks/18 Undertale/Tetrimino-Undertale.midi"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/03 - Ethnic Section/03 - Ethnic Section - 5.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/03 - Ethnic Section/03 - Ethnic Section - 4.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/03 - Ethnic Section/03 - Ethnic Section - 3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/03 - Ethnic Section/03 - Ethnic Section - 2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/03 - Ethnic Section/03 - Ethnic Section.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 5.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Retro Zelda Month/Dark World/Zelda - Dark World.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Retro Zelda Month/Dark World/Zelda - Dark World.MID"/>
+			<Url type="1" url="file:///Users/Shared/Toontrack/Superior2/Variation_14.mid"/>
+			<Url type="1" url="file:///Users/mukerjee/Dropbox/Studio One Share/Tal Tal Heights/Tal_Tal_Heights_(Demo_2).song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Test - Mitch and Mkla/Test - Mitch and Mkla.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Scares of Time Jackson Parodi/Scars of Time.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master14.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master13.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Scares of Time Jackson Parodi/Scars of Time.mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master12.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master11.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master10.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master9.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 63.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 62.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 61.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master8.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 60.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 59.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master7.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master3.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master6.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master5.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master4.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Just Strings and Choir.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 58.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 57.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 56.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master2.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 55.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 54.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 53.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 52.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 51.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Projects/LF - Master/LF - Master.project"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 50.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 49.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 48.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 47.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 46.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 45.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 44.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 43.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 42.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 41.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 40.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 39.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 38.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 25.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 24.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 23.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Mount Wario/Mount Wario5.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Mount Wario/Mount Wario4.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Mount Wario/Mount Wario3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Mount Wario/Mount Wario2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Mount Wario/Mount Wario.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Gradius 3/Cosmo Plant/gra3cp.mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale Mastering/Undertale Mastering7.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale Mastering/Undertale Mastering6.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale Mastering/Undertale Mastering5.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale Mastering/Undertale Mastering4.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale Mastering/Undertale Mastering3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale Mastering/Undertale Mastering2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale Mastering/Undertale Mastering.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale/Undertale Jam - Edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale/Undertale Jam.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/FFX/Ultimate Journey/01 - Welcome/01 - Welcome - Round 4.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Notion Test/Notion Test.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Breath of Fire/These Little Things - Bass - Cleanup.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Breath of Fire/These Little Things - Bass.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Breath of Fire/TLT Midi.mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale/Undertale Jam (Demo 4).mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 22.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 21.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 20.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 19.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 18.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 17.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 16.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 15.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 14.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 13.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 12.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 11.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 10.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 9.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 8.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 7.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 6.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 5.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 4.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Video - 2.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Final.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Rough6.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Rough5.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Rough4.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Rough3.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 28.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 27.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 25.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Rough1.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 22.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - guitar edits round x.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - choir edits round x.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 21.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 20.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - violin 1 edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - violin2 edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - viola edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 16.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 15.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - tenor tuning.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 14.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - guitar 2 edit.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - guitar 1 edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - horns trumpet edit.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Dead End/Dead End Bass.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Undertale/Undertale Jam - pre cuts.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Dead End/MIDI&amp;TEMPOMAP_DeadEnd!(Materia).mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - flute and picc edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 13.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - piano solo.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - piano.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - Bass Edits.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - All Drums.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 10.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 8.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - 6.song"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Parts/MIDI/LF Midi.mid"/>
+			<Url type="1" url="file:///Volumes/SSD-512/Studio One/Songs/Liberi Fatali 2015/Liberi Fatali 2015/Liberi Fatali 2015 - DEMO 2.song"/>
+		</Attributes>
+	</Section>
+	<Section path="RecentDocuments.pinned">
+		<Attributes>
+		</Attributes>
+	</Section>
+	<Section path="RecentEditTasks">
+		<Attributes>
+			<UID uid="{8F593053-1B2E-4223-A974-01F0BEB98514}"/>
+			<UID uid="{ABFAC254-79D3-4479-B8BB-B5CE425EBCFE}"/>
+			<UID uid="{FE066E47-D95C-4B06-9DBD-4A648DE8A3F2}"/>
+			<UID uid="{B173C4D4-52F6-48F4-B832-410568F1013C}"/>
+			<UID uid="{8543A815-7D26-485A-A6B4-33D2E72AE56F}"/>
+			<UID uid="{76E89007-4C2D-4BA8-8FF7-C9071DFF31FA}"/>
+			<UID uid="{D828CAB5-C675-4CC2-9F9E-C28743D6B2CB}"/>
+			<UID uid="{F790547A-FFF9-4EBF-BD5B-A7AA7950A276}"/>
+			<UID uid="{76E89007-4C2D-4BA8-8FF7-C9071DFF31F9}"/>
+			<UID uid="{8F593053-1B2E-4223-A974-01F0BEB98525}"/>
+			<UID uid="{E92E4A48-9E5F-4FAA-BF42-9943CC2DB801}"/>
+			<UID uid="{B0529180-E91C-4F6A-8A67-C23C13B01D19}"/>
+			<UID uid="{349D7571-C52C-4DF6-B538-00B79ADFDAD2}"/>
+			<UID uid="{FAF20DEB-BBF6-4611-B460-0E47EE7DB047}"/>
+			<UID uid="{E1F33D6A-F8AA-4370-8902-7D6E968ADF26}"/>
+			<UID uid="{66D41C5D-0642-47DC-A249-BF261FBA63AB}"/>
+			<UID uid="{344E3F75-B416-43BC-BDFF-A22CD672788A}"/>
+			<UID uid="{CAD7AF0E-31E6-4949-BC7B-20D1FDFA7505}"/>
+			<UID uid="{5EB7D908-3366-457C-9770-790FC8A213A0}"/>
+			<UID uid="{241C33C9-5C52-466A-BCE3-738216AB206A}"/>
+			<UID uid="{BF46A80A-2F24-4376-8358-D13B4E598487}"/>
+			<UID uid="{F3371DD0-B35B-4290-81BA-EACAAFA7913A}"/>
+			<UID uid="{424F4151-D97A-4E36-9820-D2E42B63124F}"/>
+			<UID uid="{7D773D2E-F954-4A3B-96B8-32037FBF991F}"/>
+			<UID uid="{644CF46A-D851-45F4-8646-EBA0C6013DAF}"/>
+			<UID uid="{703EC1F3-416D-4F1A-A4BD-4026CD0DC907}"/>
+			<UID uid="{F55A9827-CE2E-4397-B7FE-79322CBDA95C}"/>
+			<UID uid="{B2C352CF-3532-4015-84CA-EF01C38CAA23}"/>
+			<UID uid="{755A4391-F786-402A-AE5A-B817654B65EC}"/>
+			<UID uid="{FE066E47-D95C-4B06-9DBD-4A648DE8A33F}"/>
+			<UID uid="{1ED2AFE7-1927-47EA-A25E-D2A1681E2630}"/>
+			<UID uid="{ADD2C6F8-8C41-47F1-9851-1E64C7E2ED9A}"/>
+			<UID uid="{49FC5854-B51B-4CC7-A588-32DBF5A53334}"/>
+			<UID uid="{F9BA968E-12E7-419D-A41A-5510F3D2142D}"/>
+			<UID uid="{32F9E8F0-D12D-4DF5-AB88-C2553EE9E231}"/>
+			<UID uid="{0AC74126-C683-4C0A-8624-6F8B4DF45C3B}"/>
+			<UID uid="{4020F13F-C504-4123-8CC6-503AFDDFC3AC}"/>
+			<UID uid="{D9AA0774-7BFC-4183-8302-29E365610708}"/>
+			<UID uid="{76E89007-4C2D-4BA8-8FF8-C9071DFF31FA}"/>
+			<UID uid="{76E89007-4C2D-4BA8-8FF7-C9071DFF31F8}"/>
+			<UID uid="{9F7B70DC-94B3-490F-99FA-52D33F57758B}"/>
+			<UID uid="{C1EA58C6-AF12-435E-A93C-D5AE99FE646A}"/>
+			<UID uid="{F13982E4-9686-43C8-B219-947DD52C6EAF}"/>
+			<UID uid="{A6F2BEC6-8439-43B7-AC20-887CE1936F44}"/>
+			<UID uid="{C36999EC-6A79-48D0-9058-C668742262A9}"/>
+			<UID uid="{03689294-31DA-41B8-A5C0-5DA96C379562}"/>
+			<UID uid="{23EA9DEF-4586-4B3E-AEB9-A7B3EEB94109}"/>
+			<UID uid="{2B96BD06-0A61-423F-BA60-B6F1C2932ED1}"/>
+			<UID uid="{CFA04473-1BCF-469B-87B2-0D184F9EA4B6}"/>
+			<UID uid="{852F266D-FE46-407D-9A98-A4134DE6804C}"/>
+		</Attributes>
+	</Section>
+	<Section path="Recording">
+		<Attributes loopRecordMode="1" recordLayersEnabled="1" recordMode="0" inputQuantize="0"/>
+	</Section>
+	<Section path="SongRenderer">
+		<Attributes importToTrack="0" realtime="0" renderRange="1" closeAfterExport="1" writeAudioTempo="0"
+		            preMasterFX="0"/>
+	</Section>
+	<Section path="SongRenderer.AudioCodec">
+		<Attributes>
+			<FileType x:id="fileType" description="Wave File" extension="wav" mimeType="audio/x-wav" macType="1163280727"/>
+			<AudioStreamFormat x:id="format" sampleRate="48000" numChannels="2" bitDepth="24" bitRate="192000"/>
+		</Attributes>
+	</Section>
+	<Section path="SongRenderer.Publisher">
+		<Attributes>
+			<UID x:id="selected" uid="{00000000-0000-0000-0000-000000000000}"/>
+		</Attributes>
+	</Section>
+	<Section path="SongTemplates">
+		<Attributes>
+			<PersistentAttributes x:id="params">
+				<Attribute id="filterList" value="2"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="SoundSets">
+		<Attributes>
+			<Url x:id="writePath" type="2" url="file:///Volumes/SSD-1TB/Samples/Presonus/Sound Sets/"/>
+			<List x:id="paths">
+				<Url type="2" url="file:///Users/Shared/PreSonus Software/Studio One/Sound Sets/"/>
+				<Url type="2" url="file:///Volumes/SSD-1TB/Samples/Presonus/Sound Sets/"/>
+			</List>
+		</Attributes>
+	</Section>
+	<Section path="StemRenderer">
+		<Attributes importToTrack="1" realtime="0" renderRange="0" closeAfterExport="1" keepMono="1" writeAudioTempo="0"
+		            preMasterFX="0"/>
+	</Section>
+	<Section path="StemRenderer.AudioCodec">
+		<Attributes>
+			<FileType x:id="fileType" description="Wave File" extension="wav" mimeType="audio/x-wav" macType="1163280727"/>
+			<AudioStreamFormat x:id="format" sampleRate="48000" numChannels="2" bitDepth="24"/>
+		</Attributes>
+	</Section>
+	<Section path="StemRenderer.Publisher">
+		<Attributes>
+			<UID x:id="selected" uid="{00000000-0000-0000-0000-000000000000}"/>
+		</Attributes>
+	</Section>
+	<Section path="SurfaceMapping">
+		<Attributes wasActive="0"/>
+	</Section>
+	<Section path="TOS_exchange">
+		<Attributes accepted-en="1"/>
+	</Section>
+	<Section path="ToolBar/AudioEditor">
+		<Attributes tool="Arrow Tool"/>
+	</Section>
+	<Section path="ToolBar/MusicEditor">
+		<Attributes tool="Arrow Tool">
+			<PersistentAttributes x:id="toolModes">
+				<Attribute id="Paint Tool" value="Freehand"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="ToolBar/Song">
+		<Attributes tool="Arrow Tool">
+			<PersistentAttributes x:id="toolModes">
+				<Attribute id="Arrow Tool" value="Split Tool"/>
+				<Attribute id="Paint Tool" value="Freehand"/>
+			</PersistentAttributes>
+		</Attributes>
+	</Section>
+	<Section path="TransferManager">
+		<Attributes/>
+	</Section>
+	<Section path="Transport">
+		<Attributes editFollowEnabled="0"/>
+	</Section>
+	<Section path="UCMixerConnector">
+		<Attributes host=""/>
+	</Section>
+	<Section path="UserOptions">
+		<Attributes lastSelected="CommandEditorOption"/>
+	</Section>
+	<Section path="Version">
+		<Attributes identity="studioapp.retail" branding="" lastUpdateCheck="2016/09/06 00:00:22.689" version="3.3.1.39379"
+		            pluginsupport="0"/>
+	</Section>
+	<Section path="VideoPlayer">
+		<Attributes online="1" muteAudio="1"/>
+	</Section>
+</Settings>

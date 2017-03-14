@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SurfaceData surfaceID="{D9CCEEC0-6E6F-4D71-B0E0-0762EA068B2C}">
+	<SurfaceDeviceAssignment deviceID="{11111111-1111-1111-1111-111111111111}" friendlyName="static">
+		<Association key="buttonA[0]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAwMSAtIExvbmdzIC0gR2VuZXJpYw=="/>
+		<Association key="buttonA[1]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAwOSAtIExvbmdzIC0gSGFyZCAoY3VpdnJlLCBvdmVyYmxvd24sIG5hc3R5KQ=="/>
+		<Association key="buttonA[2]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAwOCAtIExvbmdzIC0gU29mdCAoZmxhdXRhbmRvLCBob2xsb3cp"/>
+		<Association key="buttonA[5]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAxMSAtIExvbmdzIC0gVHJlbSAodHJlbW9sYW5kbywgZmx1dHRlcik="/>
+		<Association key="buttonA[6]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAxNyAtIExvbmdzIC0gSGlnaGVyIChiZWxscyB1cCwgc3VsIHRhc3RvKQ=="/>
+		<Association key="buttonA[7]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAxOCAtIExvbmdzIC0gTG93ZXIgKHN1bCBwb250KQ=="/>
+		<Association key="buttonB[0]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA0MCAtIFNob3J0cyAtIEdlbmVyaWM="/>
+		<Association key="buttonB[1]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA0OSAtIFNob3J0cyAtIEhhcmQgKGRpZyk="/>
+		<Association key="buttonB[2]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA0MiAtIFNob3J0cyAtIFZlcnkgc2hvcnQgKHNwaWNjYXRvLCBzdGFjY2F0aXNzaW1vKQ=="/>
+		<Association key="buttonB[4]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA0NyAtIFNob3J0cyAtIE11dGVkIChjcywgc3RvcHBlZCk="/>
+		<Association key="buttonA[3]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAxMCAtIExvbmdzIC0gSGFybW9uaWM="/>
+		<Association key="buttonA[4]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAwNyAtIExvbmdzIC0gTXV0ZWQgKGNzLCBzdG9wcGVkKQ=="/>
+		<Association key="buttonB[7]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA0NCAtIFNob3J0cyAtIExlaXN1cmVseSAobG9uZ2VyIHN0YWNjYXRvKQ=="/>
+		<Association key="buttonB[3]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA1MiAtIFNob3J0cyAtIE1hcmNhdG8="/>
+		<Association key="buttonB[5]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA1NiAtIFNob3J0cyAtIFBsdWNrZWQgKHBpenppY2F0byk="/>
+		<Association key="buttonB[6]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA1OCAtIFNob3J0cyAtIFN0cnVjayAoY29sIGxlZ25vKQ=="/>
+		<Association key="buttonC[0]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAyMCAtIExlZ2F0byAtIEdlbmVyaWM="/>
+		<Association key="buttonC[4]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAyNiAtIExlZ2F0byAtIE11dGVk"/>
+		<Association key="buttonC[3]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAyMiAtIExlZ2F0byAtIE9jdGF2ZQ=="/>
+		<Association key="buttonC[2]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAzMyAtIExlZ2F0byAtIFNsdXJyZWQgKGxlZ2F0byBydW5zKQ=="/>
+		<Association key="buttonC[1]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAyOCAtIExlZ2F0byAtIEhhcmQ="/>
+		<Association key="buttonC[5]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAzMSAtIExlZ2F0byAtIFNsb3cgKHBvcnRhbWVudG8sIGdsaXNzYW5kaSk="/>
+		<Association key="buttonC[6]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAzNSAtIExlZ2F0byAtIEhpZ2hlciAoc3VsIHRhc3RvKQ=="/>
+		<Association key="buttonC[7]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDAzNiAtIExlZ2F0byAtIExvd2VyIChzdWwgcG9udCk="/>
+		<Association key="buttonD[1]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA3MSAtIERlY29yYXRpdmUgLSBUcmlsbCBtYWogMm5k"/>
+		<Association key="buttonD[0]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA3MCAtIERlY29yYXRpdmUgLSBUcmlsbCBtaW4gMm5k"/>
+		<Association key="buttonD[2]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA3MiAtIERlY29yYXRpdmUgLSBUcmlsbCBtaW4gM3Jk"/>
+		<Association key="buttonD[3]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA3MyAtIERlY29yYXRpdmUgLSBUcmlsbCBtYWogM3Jk"/>
+		<Association key="buttonD[4]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDA3NCAtIERlY29yYXRpdmUgLSBUcmlsbCBwZXJmIDR0aA=="/>
+		<Association key="buttonD[5]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDEwNSAtIFBocmFzZXMgLSBTbGlkZXM="/>
+		<Association key="buttonD[6]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDEwMCAtIFBocmFzZXMgLSBVcHdhcmRzIChyaXBzIGFuZCBydW5zKQ=="/>
+		<Association key="buttonD[7]" value="param:///CommandTable/Macros.Macro QXJ0aWN1bGF0aW9ucyAtIDEwMSAtIFBocmFzZXMgLSBEb3dud2FyZHMgKGZhbGxzIGFuZCBydW5zKQ=="/>
+	</SurfaceDeviceAssignment>
+</SurfaceData>

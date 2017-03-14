@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--	
+		CustomGrid External Device Mapping File.
+		For more information visit http://daw.one	 
+-->
+<ControlSurface>
+  <!-- Controllers -->
+  <Controls>
+    <!-- Buttons Row A -->
+    <Control name="buttonA[0]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#0" />
+    </Control>
+    <Control name="buttonA[1]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#1" />
+    </Control>
+    <Control name="buttonA[2]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#2" />
+    </Control>
+    <Control name="buttonA[3]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#3" />
+    </Control>
+    <Control name="buttonA[4]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#4" />
+    </Control>
+    <Control name="buttonA[5]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#5" />
+    </Control>
+    <Control name="buttonA[6]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#6" />
+    </Control>
+    <Control name="buttonA[7]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#7" />
+    </Control>
+    
+    <!-- Buttons Row B -->
+    <Control name="buttonB[0]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#8" />
+    </Control>
+    <Control name="buttonB[1]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#9" />
+    </Control>
+    <Control name="buttonB[2]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#A" />
+    </Control>
+    <Control name="buttonB[3]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#B" />
+    </Control>
+    <Control name="buttonB[4]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#C" />
+    </Control>
+    <Control name="buttonB[5]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#D" />
+    </Control>
+    <Control name="buttonB[6]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#E" />
+    </Control>
+    <Control name="buttonB[7]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#F" />
+    </Control>
+    
+    <!-- Buttons Row C -->
+    <Control name="buttonC[0]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#10" />
+    </Control>
+    <Control name="buttonC[1]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#11" />
+    </Control>
+    <Control name="buttonC[2]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#12" />
+    </Control>
+    <Control name="buttonC[3]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#13" />
+    </Control>
+    <Control name="buttonC[4]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#14" />
+    </Control>
+    <Control name="buttonC[5]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#15" />
+    </Control>
+    <Control name="buttonC[6]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#16" />
+    </Control>
+    <Control name="buttonC[7]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#17" />
+    </Control>
+    
+    <!-- Buttons Row D -->
+    <Control name="buttonD[0]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#18" />
+    </Control>
+    <Control name="buttonD[1]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#19" />
+    </Control>
+    <Control name="buttonD[2]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#1A" />
+    </Control>
+    <Control name="buttonD[3]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#1B" />
+    </Control>
+    <Control name="buttonD[4]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#1C" />
+    </Control>
+    <Control name="buttonD[5]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#1D" />
+    </Control>
+    <Control name="buttonD[6]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#1E" />
+    </Control>
+    <Control name="buttonD[7]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#1F" />
+    </Control>
+    
+    <!-- Buttons Row E -->
+    <Control name="buttonE[0]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#20" />
+    </Control>
+    <Control name="buttonE[1]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#21" />
+    </Control>
+    <Control name="buttonE[2]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#22" />
+    </Control>
+    <Control name="buttonE[3]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#23" />
+    </Control>
+    <Control name="buttonE[4]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#24" />
+    </Control>
+    <Control name="buttonE[5]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#25" />
+    </Control>
+    <Control name="buttonE[6]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#26" />
+    </Control>
+    <Control name="buttonE[7]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#27" />
+    </Control>
+    
+    <!-- Buttons Row F -->
+    <Control name="buttonF[0]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#28" />
+    </Control>
+    <Control name="buttonF[1]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#29" />
+    </Control>
+    <Control name="buttonF[2]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#2A" />
+    </Control>
+    <Control name="buttonF[3]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#2B" />
+    </Control>
+    <Control name="buttonF[4]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#2C" />
+    </Control>
+    <Control name="buttonF[5]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#2D" />
+    </Control>
+    <Control name="buttonF[6]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#2E" />
+    </Control>
+    <Control name="buttonF[7]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#2F" />
+    </Control>
+    
+    <!-- Buttons Row G -->
+    <Control name="buttonG[0]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#30" />
+    </Control>
+    <Control name="buttonG[1]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#31" />
+    </Control>
+    <Control name="buttonG[2]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#32" />
+    </Control>
+    <Control name="buttonG[3]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#33" />
+    </Control>
+    <Control name="buttonG[4]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#34" />
+    </Control>
+    <Control name="buttonG[5]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#35" />
+    </Control>
+    <Control name="buttonG[6]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#36" />
+    </Control>
+    <Control name="buttonG[7]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#37" />
+    </Control>
+    
+    <!-- Buttons Row H -->
+    <Control name="buttonH[0]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#38" />
+    </Control>
+    <Control name="buttonH[1]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#39" />
+    </Control>
+    <Control name="buttonH[2]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#3A" />
+    </Control>
+    <Control name="buttonH[3]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#3B" />
+    </Control>
+    <Control name="buttonH[4]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#3C" />
+    </Control>
+    <Control name="buttonH[5]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#3D" />
+    </Control>
+    <Control name="buttonH[6]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#3E" />
+    </Control>
+    <Control name="buttonH[7]" title="" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#3F" />
+    </Control>
+  </Controls>
+</ControlSurface>

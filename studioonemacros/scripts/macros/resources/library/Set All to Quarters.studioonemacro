@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Set All to Quarters" group="Musical" description="">
+	<CommandElement category="Musical Functions" name="Length">
+		<CommandArgument name="Mode" value="2"/>
+		<CommandArgument name="Value" value="1"/>
+		<CommandArgument name="FactorValue" value="0.20000000298023224"/>
+	</CommandElement>
+</Macro>

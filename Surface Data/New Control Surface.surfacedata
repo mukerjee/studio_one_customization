@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SurfaceData surfaceID="{A7347DA5-DF4B-E343-9947-B5DCDDE8BF94}">
+	<SurfaceDeviceAssignment deviceID="{11111111-1111-1111-1111-111111111111}" friendlyName="static"/>
+	<SurfaceDeviceAssignment deviceID="{56535470-6C61-7970-6C61-790000000000}" friendlyName="East West Play"/>
+</SurfaceData>

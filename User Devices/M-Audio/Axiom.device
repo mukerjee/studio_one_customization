@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DeviceDefinition classID="{F0A623F9-498C-D243-90B1-10C6B97D574C}" name="Axiom" category="Keyboard" nativeCode="KeyboardDevice"
+                  vendor="M-Audio" surfaceFile="Axiom.surface.xml"/>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Cut and Crossfade" group="Edit" description="">
+	<CommandElement category="Transport" name="Locate Mouse Cursor"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Audio" name="Create Crossfades"/>
+</Macro>

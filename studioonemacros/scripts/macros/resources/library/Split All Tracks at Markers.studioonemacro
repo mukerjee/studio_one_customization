@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Split All Tracks at Markers" group="Markers">
+	<CommandElement category="Transport" name="Return to Zero"/>
+	<CommandElement category="Edit" name="Select All"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Marker" name="Goto Next Marker"/>
+	<CommandElement category="Edit" name="Split at Cursor"/>
+	<CommandElement category="Transport" name="Return to Zero"/>
+	<CommandElement category="View" name="Fit Timeline to Contents"/>
+	<CommandElement category="View" name="Zoom Full"/>
+</Macro>

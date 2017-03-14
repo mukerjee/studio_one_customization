@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+	<Resources>
+		<Image name="MacroGadgetMenuIcon" url="images/GadgetMenuIcon.png" template="true"/> <!-- used by Gadget! -->
+		<Image name="MacroGadgetButton" url="images/GadgetButton.png" frames="normal normalOn"/> <!-- used by Gadget! -->		
+		<Image name="MacroToolbarIcon" url="images/ToolbarIcon.png"/> <!-- used by EditAddIn! -->		
+	</Resources>
+
+	<Styles>
+		<Style name="NameEditor" inherit="Standard.Label" textcolor="black" backcolor="white"/>
+
+		<!-- Import shared styles provided by the application -->
+		<Style name="SectionDividerH" inherit="Standard.AddIn.SectionDividerH"/>
+		<Style name="SectionDividerV" inherit="Standard.AddIn.SectionDividerV"/>
+		<Style name="MyGroup" inherit="Standard.AddIn.Group"/>
+		<Style name="MyTitle" inherit="Standard.AddIn.Title"/>		
+		<Style name="MyLabel" inherit="Standard.AddIn.Label"/>		
+		<Style name="MyButton" inherit="Standard.AddIn.Button"/>		
+		<Style name="MyButtonL" inherit="Standard.AddIn.ButtonL"/>		
+		<Style name="MyButtonR" inherit="Standard.AddIn.ButtonR"/>		
+		<Style name="MyButtonC" inherit="Standard.AddIn.ButtonC"/>		
+		<Style name="MySlider" inherit="Standard.AddIn.Slider"/>		
+		<Style name="MyEditBox" inherit="Standard.AddIn.EditBox"/>		
+		<Style name="MySelectBox" inherit="Standard.AddIn.SelectBox"/>
+		<Style name="MyMenuHeader" inherit="Standard.Menu.MenuHeader"/>
+		<Style name="MyMenuHeaderEditBox" inherit="Standard.Menu.MenuHeaderEditBox"/>
+		<Style name="MyMenuHeaderCheckBox" inherit="Standard.Menu.MenuHeaderCheckBox"/>
+		
+		<Style name="MenuSelectBox" inherit="MySelectBox">
+			<Metric name="extended" value="1"/> <!-- use extended menu instead of tree presentation -->
+		</Style>
+
+		<Style name="CommandBarStyle">
+			<Color name="backcolor" color="#aab1ba"/> <!-- background color used when resizing icons -->
+			<Metric name="maxIconWidth" value="44"/>
+			<Metric name="maxIconHeight" value="22"/>
+		</Style>
+	</Styles>
+
+	<Forms>
+		<!-- ******************************************************************************************** -->
+		<!-- Macro Panel -->
+		<!-- ******************************************************************************************** -->
+
+		<Form name="MacroPanel" title="Macros" windowstyle="floating above" attach="all fitsize">
+			<switch controller="$frame" property="isWindow">
+				<case value="1">
+					<View name="MacroPanel.Detached" attach="all fitsize"/> 
+				</case>
+				<default>
+					<View name="MacroPanel.Inplace" attach="all hfit"/>
+				</default>
+			</switch>
+		</Form>
+
+		<!-- Inplace variant is using the same pixel height as built-in application panels -->
+		<Form name="MacroPanel.Inplace" style="MyGroup">
+			<View size="0,0,0,55" attach="top bottom" sizeLimits="0,55,-1,55"/>	<!-- force vertical limit -->
+			<Horizontal size="0,0" margin="0" spacing="0" attach="all hfit" height="54">
+				<Space width="1"/>
+				<CommandBarView name="macroBar" height="54" attach="all hfit" style="CommandBarStyle"/>
+				<Space width="1"/>
+			</Horizontal>
+		</Form>
+
+		<!-- Detached variant with vertical alignment and no left/right decoration -->
+		<Form name="MacroPanel.Detached" options="windowmovable">
+			<CommandBarView name="macroBar" attach="all fitsize" options="horizontal vertical" style="CommandBarStyle"/>
+		</Form>
+	
+		<!-- ******************************************************************************************** -->
+		<!-- Macro Organizer -->
+		<!-- ******************************************************************************************** -->
+
+		<Form name="MacroOrganizer" title="Macro Organizer" helpid="studioonemacros" windowstyle="dialogstyle sizable restorepos restoresize" attach="all" sizeLimits="300,300,-1,-1">
+			<Vertical attach="all" spacing="0">
+				<Horizontal margin="0" attach="all">
+					<ListView name="fileList" width="300" height="300" options="header selection" scrolloptions="border autohideboth" attach="all" persistence.id="MacroOrganizer.fileList"/>
+					<Vertical margin="0" options="unifysizes">
+						<Space/>
+						<Button name="new" title="New..." attach="left right"/>
+						<Button name="edit" title="Edit..." attach="left right"/>
+						<Button name="delete" title="Delete" attach="left right"/>
+						<Space/>
+						<Button name="refresh" title="Refresh" attach="left right"/>
+						<Space/>
+					</Vertical>
+				</Horizontal>				
+				<Link name="showFolder" title="Show Macros Folder in Explorer/Finder" attach="bottom"/>
+			</Vertical>
+		</Form>
+
+		<!-- ******************************************************************************************** -->
+		<!-- Macro Editor -->
+		<!-- ******************************************************************************************** -->
+		
+		<Form name="MacroEditor" title="Edit Macro" buttons="okay cancel" windowstyle="dialogstyle sizable restorepos restoresize" attach="all" sizeLimits="500,300,-1,-1">
+			<Horizontal margin="0" attach="all">
+                <DialogGroup title="Commands" attach="all">
+                    <Vertical margin="5" spacing="5" attach="all">
+                        <Space height="17"/>
+						<using controller="commandSelector">
+							<Horizontal margin="0" width="300" attach="left right">
+								<Label title="Search:"/>
+								<EditBox name="searchString" height="20" options="border immediate" attach="left right fill"/>
+							</Horizontal>
+							<TreeView name="commandTree" width="300" height="300" options="noroot noicons nodrag selectfullwidth selection exclusive autoexpand" scrolloptions="autohideboth" attach="all"/>
+						</using>
+                    </Vertical>					
+                </DialogGroup>
+
+				<Vertical margin="0" attach="top" options="unifysizes">
+					<Space/>
+					<Space/>
+					<Space/>
+					<Button name="add" title="Add &gt;&gt;" attach="left right"/>
+					<Button name="remove" title="&lt;&lt; Remove" attach="left right"/>
+					<Space/>
+					<Space/>
+					<Button name="moveUp" title="Up" attach="left right"/>
+					<Button name="moveDown" title="Down" attach="left right"/>
+					<Button name="edit" title="Edit" attach="left right"/>
+				</Vertical>
+				
+                <DialogGroup title="Macro" attach="all">
+                    <Vertical margin="5" spacing="5" attach="all">
+                        <Space height="17"/>
+						<Table margin="0" width="300" columns="2" attach="left right">
+							<Label title="Title" attach="vcenter"/>
+							<EditBox name="title" height="20" attach="left right fill"/>
+							<Label title="Group" attach="vcenter"/>
+							<EditBox name="group" height="20" attach="left right fill"/>
+							<Label title="Description" attach="vcenter"/>
+							<EditBox name="description" height="20" attach="left right fill"/>
+						</Table>
+                        <ListView name="macroList" width="300" height="244" options="header selection" scrolloptions="autohideboth" attach="all" persistence.id="MacroEditor.macroList"/>
+                    </Vertical>					
+                </DialogGroup>
+			</Horizontal>
+		</Form>
+		
+		<!-- ******************************************************************************************** -->
+		<!-- Event Name Editor -->
+		<!-- ******************************************************************************************** -->
+		
+		<!-- not finished yet -->
+		<Form name="EventNameEditor" title="Edit Names" buttons="okay cancel" windowstyle="dialogstyle sizable restorepos restoresize" attach="all" sizeLimits="200,200,-1,-1">
+			<Vertical margin="0" attach="all">
+				<EditBox name="text" width="400" height="400" attach="all" options="multiline" style="NameEditor"/>
+			</Vertical>
+		</Form>
+		
+		<!-- ******************************************************************************************** -->
+		<!-- Command Bar Item -->
+		<!-- ******************************************************************************************** -->
+		
+		<Form name="CommandBarItem" attach="all">
+			<switch property="type">
+				<case value="Button">
+					<switch property="layout">
+						<case value="compact">
+							<switch property="itemIndex">
+								<case value="0">
+									<Button name="command" title="$title" icon="@icon" size="0,0,0,22" style="MyButtonL" tooltip="@cmd.title[]" sizeLimits="22,22,-1,22" options="ignoreimagesize"/>
+								</case>
+								<default>
+									<Button name="command" title="$title" icon="@icon" size="0,0,0,22" style="MyButtonR" tooltip="@cmd.title[]" sizeLimits="22,22,-1,22" options="ignoreimagesize"/>
+								</default>
+							</switch>
+						</case>
+						<default>
+							<Button name="command" title="$title" icon="@icon" size="0,0,0,22" style="MyButton" tooltip="@cmd.title[]"/>
+						</default>
+					</switch>
+				</case>
+				
+				<case value="Menu">
+					<SelectBox name="command" options="transparent hidebutton" height="22" style="MenuSelectBox">
+						<Button title="$title" icon="@icon" height="22" style="MyButton"/>
+					</SelectBox>
+				</case>
+
+				<case value="Group">
+					<Vertical margin="2" spacing="2" attach="all">
+						<TextBox name="title" style="MyTitle" options="nocontextmenu transparent" attach="hfit" size="5,0,0,17"/>
+						<switch property="layout">
+							<case value="compact">
+								<Horizontal margin="0" spacing="0" height="22" attach="left right">
+									<View width="5"/>
+									<foreach variable="$i" count="numChilds">
+										<View name="@child[$i]" attach="hfit"/>
+									</foreach>
+									<View width="5"/>
+								</Horizontal>
+							</case>
+							<default>
+								<Horizontal margin="0" spacing="5" height="22" attach="left right">
+									<View/>
+									<foreach variable="$i" count="numChilds">
+										<View name="@child[$i]" attach="hfit"/>
+									</foreach>
+									<View/>
+								</Horizontal>
+							</default>
+						</switch>
+					</Vertical>
+				</case>
+
+				<case value="Root">
+					<switch property="orientation">
+						<case value="vertical">
+							<Vertical margin="0" spacing="5" attach="all fitsize" options="unifysizes">
+								<foreach variable="$i" count="numChilds">
+									<switch property="$i">
+										<case value="0"/> <!-- not before first-->
+										<default>
+											<ImageView style="SectionDividerH" size="0,0,50,2" attach="left right"/>
+										</default>
+									</switch>
+									<View name="@child[$i]" sizeLimits="none"/>
+								</foreach>
+							</Vertical>
+						</case>
+						<default>
+							<Horizontal margin="0" spacing="0" attach="all">
+								<foreach variable="$i" count="numChilds">
+									<switch property="$i">
+										<case value="0"/> <!-- not before first-->
+										<default>
+											<ImageView style="SectionDividerV" options="colorize" size="0,0,1,54"/>
+										</default>
+									</switch>
+									<View name="@child[$i]"/>
+								</foreach>
+							</Horizontal>
+						</default>
+					</switch>
+				</case>
+
+				<case value="Tabs">
+					<TabView name="tab">
+						<foreach variable="$i" count="numChilds">
+							<View name="@child[$i]"/>
+						</foreach>
+					</TabView>
+				</case>
+				
+			</switch>
+		</Form>
+
+		<!-- ******************************************************************************************** -->
+		<!-- Command Bar Context Menu -->
+		<!-- ******************************************************************************************** -->
+
+		<Form name="CommandBarContextMenu">
+			<Horizontal margin="0" spacing="0" attach="left right" options="unifysizes">
+				<Space width="27"/>
+				<ImageView style="MyMenuHeader" options="colorize" attach="left right fill">
+					<Vertical margin="2" spacing="2" options="unifysizes" attach="left right" sizeLimits="none">
+						<switch property="type">
+							<case value="Button Menu">
+								<EditBox name="title" options="transparent doubleclick" size="0,0,100,18" attach="left right" style="MyMenuHeader"/>
+							</case>
+							<case value="Group">
+								<EditBox name="title" options="transparent doubleclick" size="0,0,100,18" attach="left right" style="MyMenuHeader"/>
+								<CheckBox name="layout" options="" style="MyMenuHeaderCheckBox" title="Compact"/>
+							</case>
+							<!--<case value="Root">
+								<CheckBox name="orientation" options="" style="MyMenuHeaderCheckBox" title="Vertical"/>
+							</case>-->
+						</switch>
+					</Vertical>
+				</ImageView>
+			</Horizontal>
+		</Form>
+
+	</Forms>
+</Skin>

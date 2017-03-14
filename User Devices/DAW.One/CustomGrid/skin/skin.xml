@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+		Skin file for CustomGrid External Device
+		For more information visit: http://daw.one
+-->
+<Skin>
+  <!-- Resources -->
+  <Resources>
+    <Image name="buttonBack"	url="buttonBack.png"	frames="normal mouseover pressed"/>
+  </Resources>
+  <!-- Styles -->
+  <Styles>
+    <Style name="credits">
+      <Font  name="textfont"   themeid="PresonusUI" size="10"/>
+      <Color name="textcolor"  color="#aaaaaa" />
+    </Style>
+    <Style name="catLabel">
+      <Font  name="textfont"   themeid="PresonusUI" size="10"/>
+      <Color name="textcolor"  color="#d0d0d0" />
+    </Style>
+	<Style name="focusField">
+	  <Font  name="textfont"   themeid="PresonusUI" size="10" style="bold"/>
+      <Color name="textcolor"  color="#aaaaaa" />
+      <Align name="textalign"	align="left"/>
+    </Style>
+    <Style name="buttonA">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#549acd" />
+    </Style>
+    <Style name="buttonB">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#9c44a3" />
+    </Style>
+    <Style name="buttonC">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#5f9e48" />
+    </Style>
+    <Style name="buttonD">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#673c8a" />
+    </Style>
+    <Style name="buttonE">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#c44e3f" />
+    </Style>
+    <Style name="buttonF">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#bf910f" />
+    </Style>
+    <Style name="buttonG">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#5f968b" />
+    </Style>
+    <Style name="buttonH">
+      <Font  name="textfont"   themeid="PresonusUI" size="13"/>
+      <Color name="textcolor"  color="#EBECEC" />
+      <Color name="backcolor" color="#292f72" />
+    </Style>
+  </Styles>
+  <!-- CustomGrid Editor -->
+  <Forms>
+    <Form name="CustomGrid" title="CustomGrid Editor" windowstyle="sizable restoresize restorepos" attach="all" datatarget="ControlSurface/Editor/ControlList">
+      <using controller="ControlSurface/Editor">
+        <View attach="all fitsize" size="0,0,0,0">
+          <Horizontal attach="all" width="1014" spacing="0" margin="5">
+            <Vertical attach="all" spacing="5" margin="0">
+
+            <!-- Focus Display -->
+              <TextBox name="focusDeviceFullName" style="focusField" width="587" options="fittext transparent" />
+                
+              <!-- buttonA -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <foreach variable="$index" count="8">
+                  <using controller="buttonA[$index]">
+                    <TextBox name="paramTitle" style="buttonA" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                      <Button name="controlValue" image="buttonBack" attach="all fill" />
+                      <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                    </TextBox>
+                  </using>
+                </foreach>
+              </Horizontal>
+              
+              <!-- buttonB -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <foreach variable="$index" count="8">
+                  <using controller="buttonB[$index]">
+                    <TextBox name="paramTitle" style="buttonB" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                      <Button name="controlValue" image="buttonBack" attach="all fill" />
+                      <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                    </TextBox>
+                  </using>
+                </foreach>
+              </Horizontal>
+              
+              <!-- buttonC -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <foreach variable="$index" count="8">
+                  <using controller="buttonC[$index]">
+                    <TextBox name="paramTitle" style="buttonC" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                      <Button name="controlValue" image="buttonBack" attach="all fill" />
+                      <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                    </TextBox>
+                  </using>
+                </foreach>
+              </Horizontal>
+              
+              <!-- buttonD -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <foreach variable="$index" count="8">
+                  <using controller="buttonD[$index]">
+                    <TextBox name="paramTitle" style="buttonD" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                      <Button name="controlValue" image="buttonBack" attach="all fill" />
+                      <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                    </TextBox>
+                  </using>
+                </foreach>
+              </Horizontal>
+              
+              <!-- buttonE -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <foreach variable="$index" count="8">
+                  <using controller="buttonE[$index]">
+                    <TextBox name="paramTitle" style="buttonE" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                      <Button name="controlValue" image="buttonBack" attach="all fill" />
+                      <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                    </TextBox>
+                  </using>
+                </foreach>
+              </Horizontal>
+              
+              <!-- buttonF -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <foreach variable="$index" count="8">
+                  <using controller="buttonF[$index]">
+                    <TextBox name="paramTitle" style="buttonF" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                      <Button name="controlValue" image="buttonBack" attach="all fill" />
+                      <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                    </TextBox>
+                  </using>
+                </foreach>
+              </Horizontal>
+              
+              <!-- buttonG -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <foreach variable="$index" count="8">
+                  <using controller="buttonG[$index]">
+                    <TextBox name="paramTitle" style="buttonG" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                      <Button name="controlValue" image="buttonBack" attach="all fill" />
+                      <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                    </TextBox>
+                  </using>
+                </foreach>
+              </Horizontal>
+              
+              <!-- buttonH -->
+              
+              <Horizontal attach="left right" spacing="5" margin="0">
+                <foreach variable="$index" count="8">
+                  <using controller="buttonH[$index]">
+                    <TextBox name="paramTitle" style="buttonH" width="128" options="fittext composited nocontextmenu" attach="left right fill" height="69">
+                      <Button name="controlValue" image="buttonBack" attach="all fill" />
+                      <TextBox name="controlMessage" style="catLabel" options="transparent" size="5,49,0,0"/>
+                    </TextBox>
+                  </using>
+                </foreach>
+              </Horizontal>
+                
+              <!-- Credits -->
+              <Label title="CustomGrid 1.0 | Studio One Shortcut Grid Device By DAW.One | 2015" style="credits" />
+
+            </Vertical>
+          </Horizontal>
+        </View>
+      </using>
+    </Form>
+  </Forms>
+</Skin>

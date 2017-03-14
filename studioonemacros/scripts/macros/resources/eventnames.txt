@@ -1,0 +1,120 @@
+﻿* Markers
+	Intro
+	Verse 1
+	Chorus 1
+	Verse 2
+	Chorus 2
+	Solo
+	Bridge
+	Chorus Vamp
+	-
+	Pre-Chorus
+	
+* Vocals
+	Lead Vox
+	Male Rap
+	Female Rap
+	Vox Dbl.
+	Ad Lib
+	BG Harm 1
+	BG Harm 2
+	BG Harm 3
+	BG Harm 4
+	BG Bass
+	BG Lo Mid
+	BG Mid
+	BG High
+	
+* Takes
+	Take 2
+	Take 3
+	Take 4
+	Take 5
+	Take 6
+	
+* Drums
+	Stereo Drums
+	Kick
+	Snare
+	Snare Btm
+	Stick
+	Hi-Hats
+	- Toms
+	Floor Tom
+	Low Tom
+	Mid Tom
+	High Tom
+	- Cymbals
+	Crash
+	Splash
+	China
+	Ride
+	-
+	Overheads
+	OH L
+	OH R
+	Room Mic
+
+* Percussion
+	Woodblock
+	Cowbell
+	Bell
+	Congas
+	Bongos
+	Triangle
+	Orch Hit
+	
+* Bass
+	Electric Bass
+	Acoustic Bass
+	Bass DI
+	
+* Guitar
+	Eletric Gtr
+	Lead Gtr
+	Dist. Gtr
+	Acoutic Gtr
+	Gtr DI
+	
+* Piano / Keys
+	Grand Piano
+	Electric Piano
+	Rhodes Piano
+	Honky Tonk
+	Organ
+	Synth
+
+* Strings
+	Violin
+	Viola
+	Cello
+	Contrabass
+	Tremolo Str
+	Pizzicato Str
+	Synth Strings
+	Str Ensemble
+	
+* Brass
+	Trumpet
+	Trombone
+	Tuba
+	Muted Trumpet
+	French Horn
+	Brass Section
+	Synth Brass
+	
+* Reed
+	Soprano Sax
+	Alto Sax
+	Tenor Sax
+	Baritone Sax
+	Oboe
+	English Horn
+	Bassoon
+	Clarinet
+	
+* A/V
+	Voiceover Male
+	Voiceover Female
+	Music Bed 1
+	Music Bed 2

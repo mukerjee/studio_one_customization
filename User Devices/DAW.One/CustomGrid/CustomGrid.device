@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceDefinition 
+              classID="{d9cceec0-6e6f-4d71-b0e0-0762ea068b2c}" 
+              name="CustomGrid" category="Surface"
+              nativeCode="ControlSurfaceDevice"
+              vendor="DAW.One"
+              surfaceFile="CustomGrid.surface.xml"
+              surfacePlacementSize="16"
+              imageFile="CustomGrid.png"
+              textFile="CustomGrid.txt"
+              skinFile="skin/"
+              formName="CustomGrid"
+              />

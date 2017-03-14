@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaInformation>
+	<Attribute id="Package:ID" value="presonus.studioone.macros"/>
+	<Attribute id="Package:SkinFile" value="skin/"/>
+	<Attribute id="Package:TranslationFile" value="translations/"/>
+</MetaInformation>

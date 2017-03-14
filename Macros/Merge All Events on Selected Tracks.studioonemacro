@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Merge All Events on Selected Tracks" group="Edit" description="">
+	<CommandElement category="Edit" name="Select All on Tracks"/>
+	<CommandElement category="Edit" name="Merge Events"/>
+</Macro>

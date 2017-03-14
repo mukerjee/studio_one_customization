@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Create Song Markers" group="Markers">
+	<CommandElement category="View" name="Open Markertrack"/>
+	<CommandElement category="Transport" name="Return to Zero"/>
+	<CommandElement category="Transport" name="Forward Bar">
+		<CommandArgument name="Bars" value="12"/>
+	</CommandElement>
+	<CommandElement category="Marker" name="Insert Named">
+		<CommandArgument name="Name" value="INTRO"/>
+	</CommandElement>
+	<CommandElement category="Transport" name="Forward Bar">
+		<CommandArgument name="Bars" value="12"/>
+	</CommandElement>
+	<CommandElement category="Marker" name="Insert Named">
+		<CommandArgument name="Name" value="VERSE 1"/>
+	</CommandElement>
+	<CommandElement category="Transport" name="Forward Bar">
+		<CommandArgument name="Bars" value="12"/>
+	</CommandElement>
+	<CommandElement category="Marker" name="Insert Named">
+		<CommandArgument name="Name" value="CHORUS 1"/>
+	</CommandElement>
+	<CommandElement category="Transport" name="Forward Bar">
+		<CommandArgument name="Bars" value="12"/>
+	</CommandElement>
+	<CommandElement category="Marker" name="Insert Named">
+		<CommandArgument name="Name" value="VERSE 2"/>
+	</CommandElement>
+	<CommandElement category="Transport" name="Forward Bar">
+		<CommandArgument name="Bars" value="12"/>
+	</CommandElement>
+	<CommandElement category="Marker" name="Insert Named">
+		<CommandArgument name="Name" value="CHORUS 2"/>
+	</CommandElement>
+	<CommandElement category="Transport" name="Forward Bar">
+		<CommandArgument name="Bars" value="12"/>
+	</CommandElement>
+	<CommandElement category="Marker" name="Insert Named">
+		<CommandArgument name="Name" value="SOLO"/>
+	</CommandElement>
+	<CommandElement category="Transport" name="Forward Bar">
+		<CommandArgument name="Bars" value="12"/>
+	</CommandElement>
+	<CommandElement category="Marker" name="Insert Named">
+		<CommandArgument name="Name" value="BRIDGE"/>
+	</CommandElement>
+	<CommandElement category="Transport" name="Forward Bar">
+		<CommandArgument name="Bars" value="12"/>
+	</CommandElement>
+	<CommandElement category="Marker" name="Insert Named">
+		<CommandArgument name="Name" value="CHORUS VAMP"/>
+	</CommandElement>
+	<CommandElement category="Transport" name="Return to Zero"/>
+	<CommandElement category="View" name="Fit Timeline to Contents"/>
+</Macro>

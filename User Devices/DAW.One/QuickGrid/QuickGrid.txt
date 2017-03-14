@@ -1,0 +1,3 @@
+QuickGrid is an External Device that can be used to quickly trigger Studio One functions that are mainly accesible through (context) menu's.
+QuickGrid supports MIDI in.
+For more information, visit daw.one.

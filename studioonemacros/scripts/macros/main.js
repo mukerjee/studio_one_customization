@@ -1,0 +1,16 @@
+include_file ("cclapp.js");
+include_file ("elements.js");
+include_file ("renamer.js");
+include_file ("shared.js");
+include_file ("panel.js");
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// Class factory entry point
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+function createInstance (args)
+{
+	__init (args); // init package identifier
+
+	return new StudioOneMacroPanel;
+}

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Macro title="Strip Sil" group="Edit" description="">
+	<CommandElement category="Audio" name="Strip Silence"/>
+	<CommandElement category="Edit" name="Delete"/>
+</Macro>

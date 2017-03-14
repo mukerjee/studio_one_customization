@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--	
+		QuickGrid External Device Mapping File.
+		For more information visit http://daw.one	 
+-->
+<ControlSurface>
+  <!-- Controllers -->
+  <Controls>
+
+    <!-- Longs -->
+    <Control name="longsGeneric" title="Longs:" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#0" />
+    </Control>
+    <Control name="longsHard" title="Hard" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#1" />
+    </Control>
+    <Control name="longsSoft" title="Soft" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="longsHarmonic" title="Harmonics" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="longsMuted" title="Muted" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="longsTremolo" title="Tremolo" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#8" />
+    </Control>
+    <Control name="longsHigher" title="Sul Tasto" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="longsLower" title="Sul Pont" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+
+    <!-- Shorts -->
+    <Control name="shortsGeneric" title="Shorts:" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#2" />
+    </Control>
+    <Control name="shortsHard" title="Hard" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#3" />
+    </Control>
+    <Control name="shortsSpicc" title="Spicc" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#4" />
+    </Control>
+    <Control name="shortsMarcato" title="Marcato" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="shortsMuted" title="Muted" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="shortsPizz" title="Pizz" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#7" />
+    </Control>
+    <Control name="shortsColLengo" title="Col Lengo" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="shortsLongStacc" title="Leisurely" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+
+    <!-- Legato -->
+    <Control name="legatoGeneric" title="Legato:" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#5" />
+    </Control>
+    <Control name="legatoHard" title="Hard" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="legatoRuns" title="Runs" type="trigger" options="receive public">
+      <MidiMessage status="NoteOn" channel="0" address="#6" />
+    </Control>
+    <Control name="legatoOctave" title="Octave" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="legatoMuted" title="Muted" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="legatoPort" title="Port" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="legatoHigher" title="Sul Tasto" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="legatoLower" title="Sul Pont" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+
+    <!-- Decorative -->
+    <Control name="decorativeTrillMi2" title="Trill (m 2nd)" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="decorativeTrillM2" title="Trill (M 2nd)" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="decorativeTrillMi3" title="Trill (m 3rd)" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="decorativeTrillM3" title="Trill (M 3rd)" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="decorativeTrillP4" title="Trill (4th)" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="decorativeSlides" title="Slides" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="decorativeUp" title="Rises" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+    <Control name="decorativeDown" title="Falls" type="trigger" options="receive public">
+      <!-- <MidiMessage status="NoteOn" channel="0" address="#" /> -->
+    </Control>
+
+  </Controls>
+  <!-- Mappings -->
+  <Mappings>
+    <Global>
+      <!-- Articulations -->
+      <Command control="longsGeneric" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAwMSAtIExvbmdzIC0gR2VuZXJpYw==" />
+      <Command control="longsHard" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAwOSAtIExvbmdzIC0gSGFyZCAoY3VpdnJlLCBvdmVyYmxvd24sIG5hc3R5KQ=="/>
+      <Command control="longsSoft" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAwOCAtIExvbmdzIC0gU29mdCAoZmxhdXRhbmRvLCBob2xsb3cp"/>
+      <Command control="longsHarmonic" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAxMCAtIExvbmdzIC0gSGFybW9uaWM="/>
+      <Command control="longsMuted" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAwNyAtIExvbmdzIC0gTXV0ZWQgKGNzLCBzdG9wcGVkKQ=="/>
+      <Command control="longsTremolo" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAxMSAtIExvbmdzIC0gVHJlbSAodHJlbW9sYW5kbywgZmx1dHRlcik="/>
+      <Command control="longsHigher" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAxNyAtIExvbmdzIC0gSGlnaGVyIChiZWxscyB1cCwgc3VsIHRhc3RvKQ=="/>
+      <Command control="longsLower" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAxOCAtIExvbmdzIC0gTG93ZXIgKHN1bCBwb250KQ=="/>
+
+      <Command control="shortsGeneric" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA0MCAtIFNob3J0cyAtIEdlbmVyaWM="/>
+      <Command control="shortsHard" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA0OSAtIFNob3J0cyAtIEhhcmQgKGRpZyk="/>
+      <Command control="shortsSpicc" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA0MiAtIFNob3J0cyAtIFZlcnkgc2hvcnQgKHNwaWNjYXRvLCBzdGFjY2F0aXNzaW1vKQ=="/>
+      <Command control="shortsMarcato" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA1MiAtIFNob3J0cyAtIE1hcmNhdG8="/>
+      <Command control="shortsMuted" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA0NyAtIFNob3J0cyAtIE11dGVkIChjcywgc3RvcHBlZCk="/>
+      <Command control="shortsPizz" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA1NiAtIFNob3J0cyAtIFBsdWNrZWQgKHBpenppY2F0byk="/>
+      <Command control="shortsColLengo" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA1OCAtIFNob3J0cyAtIFN0cnVjayAoY29sIGxlZ25vKQ=="/>
+      <Command control="shortsLongStacc" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA0NCAtIFNob3J0cyAtIExlaXN1cmVseSAobG9uZ2VyIHN0YWNjYXRvKQ=="/>
+
+      <Command control="legatoGeneric" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAyMCAtIExlZ2F0byAtIEdlbmVyaWM="/>
+      <Command control="legatoHard" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAyOCAtIExlZ2F0byAtIEhhcmQ="/>
+      <Command control="legatoRuns" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAzMyAtIExlZ2F0byAtIFNsdXJyZWQgKGxlZ2F0byBydW5zKQ=="/>
+      <Command control="legatoOctave" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAyMiAtIExlZ2F0byAtIE9jdGF2ZQ=="/>
+      <Command control="legatoMuted" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAyNiAtIExlZ2F0byAtIE11dGVk"/>
+      <Command control="legatoPort" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAzMSAtIExlZ2F0byAtIFNsb3cgKHBvcnRhbWVudG8sIGdsaXNzYW5kaSk="/>
+      <Command control="legatoHigher" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAzNSAtIExlZ2F0byAtIEhpZ2hlciAoc3VsIHRhc3RvKQ=="/>
+      <Command control="legatoLower" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDAzNiAtIExlZ2F0byAtIExvd2VyIChzdWwgcG9udCk="/>
+
+      <Command control="decorativeTrillMi2" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA3MCAtIERlY29yYXRpdmUgLSBUcmlsbCBtaW4gMm5k"/>
+      <Command control="decorativeTrillM2" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA3MSAtIERlY29yYXRpdmUgLSBUcmlsbCBtYWogMm5k"/>
+      <Command control="decorativeTrillMi3" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA3MiAtIERlY29yYXRpdmUgLSBUcmlsbCBtaW4gM3Jk"/>
+      <Command control="decorativeTrillM3" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA3MyAtIERlY29yYXRpdmUgLSBUcmlsbCBtYWogM3Jk"/>
+      <Command control="decorativeTrillP4" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDA3NCAtIERlY29yYXRpdmUgLSBUcmlsbCBwZXJmIDR0aA=="/>
+      <Command control="decorativeSlides" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDEwNSAtIFBocmFzZXMgLSBTbGlkZXM="/>
+      <Command control="decorativeUp" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDEwMCAtIFBocmFzZXMgLSBVcHdhcmRzIChyaXBzIGFuZCBydW5zKQ=="/>
+      <Command control="decorativeDown" command.category="Macros" command.name="Macro QXJ0aWN1bGF0aW9ucyAtIDEwMSAtIFBocmFzZXMgLSBEb3dud2FyZHMgKGZhbGxzIGFuZCBydW5zKQ=="/>
+    </Global>
+  </Mappings>
+</ControlSurface>
